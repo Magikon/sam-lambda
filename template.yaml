@@ -37,22 +37,22 @@ Resources:
         - nodejs14.x
     Metadata:
       BuildMethod: makefile    
-  PythonLayer:
-    Type: AWS::Serverless::LayerVersion
-    Properties:
-      ContentUri: layers/python
-      CompatibleRuntimes:
-        - python2.7
-    Metadata:
-      BuildMethod: makefile    
-  Python3Layer:
-    Type: AWS::Serverless::LayerVersion
-    Properties:
-      ContentUri: layers/python3
-      CompatibleRuntimes:
-        - python3.6
-    Metadata:
-      BuildMethod: makefile          
+  # PythonLayer:
+    # Type: AWS::Serverless::LayerVersion
+    # Properties:
+      # ContentUri: layers/python
+      # CompatibleRuntimes:
+        # - python2.7
+    # Metadata:
+      # BuildMethod: makefile    
+  # Python3Layer:
+    # Type: AWS::Serverless::LayerVersion
+    # Properties:
+      # ContentUri: layers/python3
+      # CompatibleRuntimes:
+        # - python3.6
+    # Metadata:
+      # BuildMethod: makefile          
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
   # Find out more about other implicit resources you can reference within SAM
