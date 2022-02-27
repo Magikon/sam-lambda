@@ -1,0 +1,15 @@
+env: staging
+db_name: staging
+db_endpoint: propair-rs.cbwhpsk1qhvp.us-west-1.redshift.amazonaws.com
+db_user: stageuser
+bucket: pp-tables
+aws_region: us-west-1
+table_name: external_events
+prefix: events-tmp2
+sort_key: log_date
+unique_fields:
+  - account_id
+  - account_lead_id
+  - log_subtype_id
+  - log_id
+user: jfigueroa

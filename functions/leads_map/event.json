@@ -1,0 +1,788 @@
+{
+	"lead": {
+		"id": "8556119",
+		"actionCount": "0",
+		"bankruptcyInLastSevenYears": "No",
+		"campaign": "CFD_LTSF_Express",
+		"campaignGroup": "CCD | LTSF COB",
+		"cashOutAmount": "",
+		"creditProfile": "Good",
+		"dateAdded": "5/5/2021 5:56 PM",
+		"dayPhone": "U2FsdGVkX19mWGWOW+z3/eEuOZtl5E1vEiQnmW/20P8=",
+		"downPaymentAmount": "$235,000.00",
+		"email": "U2FsdGVkX1+TINRAyIEgc8en5A4XTfXNqSvHm5ZbWbrDNIg6MnqzUtpchkkfJiNA",
+		"eveningPhone": "U2FsdGVkX1/J3JoTvepKg+7jyQmNCSqDRljDyXdOX40=",
+		"existingHomeValue": "$700,000.00",
+		"firstName": "U2FsdGVkX19vsIFkMjjNe15h1qGz83bM4ZquijD0W0Y=",
+		"intendedPropertyUse": "Primary Residence",
+		"lastName": "U2FsdGVkX19lQGtEYXMjPvxDXIQh3WM9Dh9+G4P/wlw=",
+		"lastDuplicate": "",
+		"loanAmount": "$465,000.00",
+		"loanPurpose": "Refinance",
+		"propertyAddress": "U2FsdGVkX19d6Kq51Koj78ssmBmMpJjTpbRXuMIqwYshvxicV6OSTYiqRbg8MtWq",
+		"propertyState": "CA",
+		"propertyType": "Single Family",
+		"propertyZipCode": "92844",
+		"purchasePrice": "$700,000.00",
+		"IsMilitary": "No",
+		"FICO": "",
+		"ProPairId": "",
+		"propair_id": ""
+	},
+	"customer": "cardinal",
+	"accountConfig": {
+		"active_prospect": {
+			"filtering": true,
+			"use_custom_rank": true,
+			"use_prospect_matching": false
+		},
+		"calls_producer": {
+			"triggers": {
+				"run_producer": true
+			},
+			"variables": {
+				"calls_software": "incontact",
+				"fromNowMinutes": 100
+			}
+		},
+		"credit_profile_priority_list": [
+			"credit_score_stated",
+			"credit_profile_stated"
+		],
+		"custom_rank": {
+			"default_model": "CCD",
+			"models": {
+				"CCD": {
+					"algo": "000201a",
+					"CR_bins": [
+						0.515,
+						0.504,
+						0.482,
+						0.429,
+						0.397,
+						0.366
+					],
+					"exclusions": {},
+					"filters": {}
+				}
+			},
+			"triggers": {
+				"use_custom_rank": true
+			},
+			"variables": {
+				"CR_bins": {
+					"ALL": [
+						0.515,
+						0.504,
+						0.482,
+						0.429,
+						0.397,
+						0.366
+					],
+					"ALL_OLD": [
+						0.581,
+						0.533,
+						0.479,
+						0.452,
+						0.412,
+						0.334
+					],
+					"AP": [
+						0.571,
+						0.529,
+						0.436,
+						0.407,
+						0.39,
+						0.37
+					],
+					"BAK_AP_ORIGINAL": [
+						0.571,
+						0.529,
+						0.436,
+						0.407,
+						0.39,
+						0.352
+					]
+				},
+				"CUSTOM_RANK_THRESHOLD_ALL": 0.23,
+				"CUSTOM_RANK_THRESHOLD_Inbound": 0
+			}
+		},
+		"domains": {
+			"list": [
+				"AOL",
+				"ATT",
+				"COMCAST",
+				"COX",
+				"GMAIL",
+				"HOTMAIL",
+				"MSN",
+				"OPTOUT",
+				"OTHER",
+				"SBCGLOBAL",
+				"YAHOO"
+			],
+			"tld_list": [
+				"BADDOMAIN",
+				"COM",
+				"EDU ",
+				"GOV",
+				"HARDBOUNCE",
+				"NET",
+				"OPTOUT",
+				"ORG",
+				"OTHER",
+				"US"
+			]
+		},
+		"DR_bins": {
+			"DR_14": [
+				0.511,
+				0.421,
+				0.386,
+				0.366,
+				0.35,
+				0.306
+			],
+			"DR_28": [
+				0.493,
+				0.394,
+				0.357,
+				0.332,
+				0.313,
+				0.293
+			]
+		},
+		"dynamic_rank": {
+			"triggers": {
+				"run_dr": true
+			},
+			"variables": {
+				"algo": "000201a",
+				"DR_bins": {
+					"1": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"2": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"3": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"4": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"5": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"6": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"7": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"8": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"9": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"10": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"11": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"12": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"13": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"14": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"15": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"16": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"17": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"18": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"19": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"20": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"21": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"22": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"23": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"24": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"25": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"26": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"27": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"28": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"29": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"30": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"31": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"32": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"33": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"34": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"35": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"36": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"37": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"38": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"39": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"40": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"41": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"42": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"43": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"44": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"45": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"46": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"47": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"48": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"49": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"50": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"51": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"52": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"53": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"54": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"55": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"56": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"57": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"58": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"59": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					],
+					"60": [
+						0.511,
+						0.421,
+						0.386,
+						0.366,
+						0.35,
+						0.306
+					]
+				},
+				"dr_range": 60,
+				"ohe_features": [
+					"BIN_credit_profile_stated",
+					"BIN_domain",
+					"BIN_property_type_stated",
+					"BIN_property_use_stated",
+					"BIN_purpose_detail_stated",
+					"BIN_source",
+					"campaign_group",
+					"competition",
+					"lead_date_day",
+					"lead_date_hour",
+					"region_set1_name",
+					"source_type",
+					"source_channel",
+					"va_eligible_stated"
+				]
+			}
+		},
+		"events_producer": {
+			"triggers": {
+				"run_producer": true
+			},
+			"variables": {
+				"fromNowMinutes": 16
+			}
+		},
+		"id": 8,
+		"leads_producer": {
+			"triggers": {
+				"run_audit": true,
+				"run_producer": true,
+				"scheduler_format": "12 hours"
+			},
+			"variables": {
+				"accepted_split_fields": [
+					"purchase_price_stated",
+					"home_value_stated",
+					"loan_amount_stated",
+					"down_payment",
+					"cash_out_stated"
+				]
+			}
+		},
+		"los": {
+			"date_close_field": "milestone_date_docsigning",
+			"extra_lock_file": true,
+			"include_duplicates": true,
+			"match_type": "on_lead_id",
+			"use_all_files": true
+		},
+		"name": "cardinal",
+		"pii_fields": [
+			"firstname",
+			"firstnamestated",
+			"lastname",
+			"lastnamestated",
+			"email",
+			"dayphone",
+			"eveningphone",
+			"emailstated",
+			"velocify_password",
+			"velocify_username",
+			"propertyaddress"
+		],
+		"prospect_matching": {
+			"triggers": {
+				"agent_exclusion": false,
+				"RANDOMIZE_AGENT_ORDER": true,
+				"use_prospect_matching": false
+			},
+			"variables": {
+				"AB_ALGO1_SUFFIX": ":000203a",
+				"AB_ALGO2_SUFFIX": ":000203a",
+				"AB_ALGO_COUNT": 2,
+				"AB_RECOMMENDATION_THRESHOLD": 0.25,
+				"AVAIL_AGENT_COUNT": 1,
+				"AVAIL_END_HOUR": 23,
+				"AVAIL_PAGE_SECONDS": 300,
+				"AVAIL_START_HOUR": 6,
+				"RECOMMENDATION_LICENSE_LO": {
+					"CCD": 10,
+					"CRD": 7,
+					"SCD": 10
+				},
+				"RECOMMENDATION_THRESHOLD": 0.5,
+				"RECOMMENDATION_THRESHOLD_LICENSE": {
+					"CCD": 0.7,
+					"CRD": 0.7,
+					"SCD": 0.7
+				},
+				"RECOMMENDATION_THRESHOLD_WEEKEND": 0.75
+			}
+		},
+		"rec_expansion": [
+			{
+				"expand_rec_after_seconds": 1209600,
+				"expand_rec_by_percentage": 80,
+				"run_rec_expansion": false
+			}
+		],
+		"repost": {
+			"triggers": {
+				"use_repost": true
+			},
+			"variables": {
+				"failure_threshold": 0.2,
+				"hours_from_now": 50,
+				"sample_size": 50
+			}
+		},
+		"rookie_rollout": {
+			"triggers": {
+				"use_rookie_rollout": false
+			},
+			"variables": {
+				"bins": [
+					0.529,
+					0.423
+				],
+				"boundary_conditions": {
+					"1": [
+						0.05,
+						0.2
+					],
+					"2": [
+						0.1,
+						0.3
+					],
+					"3": [
+						0.85,
+						0.5
+					]
+				},
+				"timeframe_weeks": 6
+			}
+		},
+		"run_dynamic_rank": true,
+		"source_detail_required": false,
+		"source_required": false,
+		"update_logs_lead_id": false,
+		"write_to_velocify": true
+	},
+	"isQA": true
+}

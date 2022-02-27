@@ -1,0 +1,23 @@
+{
+  "name": "log_lead",
+  "version": "1.0.0",
+  "main": "debug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.656.0",
+    "crypto-js": "^4.0.0",
+    "js-yaml": "^3.13.1",
+    "kafka-node": "^5.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-redshift": "^0.1.5",
+    "pg": "^8.0.0",
+    "pg-pool": "^3.0.0",
+    "redis": "^3.0.2"
+  },
+  "description": ""
+}

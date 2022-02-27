@@ -1,0 +1,226 @@
+  AccountsAPI:
+    Type: AWS::Serverless::Api
+    Properties:
+        StageName: Prod
+        DefinitionBody:
+            info:
+              title: !Sub "Accounts API (${Env})"
+            securityDefinitions:
+              cognitoUserPoolAuthorizer:
+                type: "apiKey"
+                name: "Authorization"
+                in: "header"
+                x-amazon-apigateway-authtype: "cognito_user_pools"
+                x-amazon-apigateway-authorizer:
+                  type: "cognito_user_pools"
+                  providerARNs:
+                    - arn:aws:cognito-idp:us-west-2:450889472107:userpool/us-west-2_o5AQZrtjv
+            paths:
+              "/accounts":
+                get:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${IndexAccounts.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+                post:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${CreateAccount.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+              "/accounts/{accountId}":
+                get:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${ShowAccount.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+                patch:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${UpdateAccount.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+              "/agents":
+                get:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${IndexAgents.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+                post:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${CreateAgent.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+              "/agents/{agentId}":
+                get:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${ShowAgent.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+                patch:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${UpdateAgent.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+              "/agents/upload":
+                patch:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${UpdateAgents.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+                post:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${CreateAgents.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+              "/branches":
+                get:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${IndexBranches.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+                post:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${CreateBranch.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+              "/branches/{branchId}":
+                get:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${ShowBranch.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+                patch:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${UpdateBranch.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+              "/branch_groups":
+                get:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${IndexBranchGroups.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+                post:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${CreateBranchGroup.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+              "/branch_groups/{branchGroupId}":
+                get:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${ShowBranchGroup.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+                patch:
+                  security:
+                    - cognitoUserPoolAuthorizer: []
+                  x-amazon-apigateway-integration:
+                    httpMethod: POST
+                    type: aws_proxy
+                    uri:
+                      Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${UpdateBranchGroup.Arn}/invocations
+                  responses:
+                    "200":
+                      description: "200 response"
+            swagger: '2.0'

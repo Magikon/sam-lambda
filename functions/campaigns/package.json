@@ -1,0 +1,25 @@
+{
+  "name": "campaigns",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.430.0",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^6.2.0",
+    "exceljs": "^1.7.0",
+    "node-redshift": "^0.1.5",
+    "pg": "^7.8.0",
+    "redis": "^3.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

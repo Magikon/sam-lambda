@@ -1,0 +1,2006 @@
+created_at,account_id,account_lead_id,modified_at,log_type,log_id,log_date,log_subtype_id,log_subtype_name,milestone_id,milestone_name,log_note,log_user_id,log_user_email,log_user_name,group_id,group_name,imported,updated_at,log_type_id
+2019-09-16 15:09:07.449688,10,1125772,09/11/2019 01:06:08,Status,155597,09/10/2019 17:01:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.449688,7
+2019-09-16 15:09:07.449772,10,1125772,09/11/2019 01:06:08,CreationLog,160785,09/10/2019 17:01:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.449772,
+2019-09-16 15:09:07.449827,10,1125772,09/11/2019 01:06:08,Export,113480,09/10/2019 17:01:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125772"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Lendilio"",
+		  ""campaignGroup"": ""SE 3rd Party"",
+		  ""creditProfile"": ""VERYGOOD"",
+		  ""dateAdded"": ""9/10/2019 5:01 PM"",
+		  ""dayPhone"": ""(555) 214-0428"",
+		  ""email"": ""(Hard Bounce)"",
+		  ""eveningPhone"": ""(555) 440-7312"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Matthew"",
+		  ""intendedPropertyUse"": ""PRIMARYHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Lopez"",
+		  ""loanAmount"": ""466210.001"",
+		  ""loanPurpose"": ""FHA"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""PA"",
+		  ""propertyType"": ""6"",
+		  ""propertyZipCode"": ""63550"",
+		  ""purchasePrice"": ""596122.00"",
+		  ""LeadProviderName"": ""EMPLOYEELOANPROGRAM"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.5"",
+		  ""FICO"": ""694""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.449827,6
+2019-09-16 15:09:07.449870,10,1125772,09/11/2019 01:06:08,Email,432904,09/10/2019 17:01:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.449870,5
+2019-09-16 15:09:07.449912,10,1125772,09/11/2019 01:06:08,Email,432903,09/10/2019 17:01:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.449912,5
+2019-09-16 15:09:07.449954,10,1125772,09/11/2019 01:06:08,Distribution,255811,09/10/2019 17:01:42,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.449954,4
+2019-09-16 15:09:07.450004,10,1125773,09/11/2019 01:06:09,Status,155598,09/10/2019 17:03:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.450004,7
+2019-09-16 15:09:07.450045,10,1125773,09/11/2019 01:06:09,CreationLog,160786,09/10/2019 17:03:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.450045,
+2019-09-16 15:09:07.450086,10,1125773,09/11/2019 01:06:09,Export,113481,09/10/2019 17:03:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125773"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Zeta"",
+		  ""campaignGroup"": ""Banker RPG"",
+		  ""creditProfile"": ""GOOD"",
+		  ""dateAdded"": ""9/10/2019 5:03 PM"",
+		  ""dayPhone"": ""(555) 128-2821"",
+		  ""email"": ""bsanchez@mendez.com"",
+		  ""eveningPhone"": ""(555) 722-7813"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Megan"",
+		  ""intendedPropertyUse"": ""INVESTMENT"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Wagner"",
+		  ""loanAmount"": ""814121.00"",
+		  ""loanPurpose"": ""2NDMORTGAGE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""ID"",
+		  ""propertyType"": ""SFR"",
+		  ""propertyZipCode"": ""51716"",
+		  ""purchasePrice"": ""686117.001"",
+		  ""LeadProviderName"": ""TWILIO"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.4"",
+		  ""FICO"": ""845""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.450086,6
+2019-09-16 15:09:07.450131,10,1125773,09/11/2019 01:06:09,Email,432905,09/10/2019 17:03:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.450131,5
+2019-09-16 15:09:07.450176,10,1125773,09/11/2019 01:06:09,Email,432906,09/10/2019 17:03:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.450176,5
+2019-09-16 15:09:07.450228,10,1125773,09/11/2019 01:06:09,Distribution,255812,09/10/2019 17:03:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.450228,4
+2019-09-16 15:09:07.450274,10,1125774,09/10/2019 17:05:41,Status,155599,09/10/2019 17:05:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.450274,7
+2019-09-16 15:09:07.450319,10,1125774,09/10/2019 17:05:41,CreationLog,160787,09/10/2019 17:05:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.450319,
+2019-09-16 15:09:07.450364,10,1125774,09/10/2019 17:05:41,Export,113482,09/10/2019 17:05:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125774"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""BestRateReferrals"",
+		  ""campaignGroup"": ""PROPAIR 3rd Party"",
+		  ""creditProfile"": ""615"",
+		  ""dateAdded"": ""9/10/2019 5:05 PM"",
+		  ""dayPhone"": ""(555) 715-0793"",
+		  ""email"": ""francisarthur@hotmail.com"",
+		  ""eveningPhone"": ""(555) 838-3566"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Danielle"",
+		  ""intendedPropertyUse"": ""SECONDARYVACTN"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Johnson"",
+		  ""loanAmount"": ""970949.002"",
+		  ""loanPurpose"": ""HOMEPURCHASELOAN"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MN"",
+		  ""propertyType"": ""TRAILER"",
+		  ""propertyZipCode"": ""62084"",
+		  ""purchasePrice"": ""390377.00"",
+		  ""LeadProviderName"": ""HTTPSMYPROPAIR-BANK.COMAPR"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""482""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.450364,6
+2019-09-16 15:09:07.450407,10,1125774,09/10/2019 17:05:41,Email,432908,09/10/2019 17:05:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.450407,5
+2019-09-16 15:09:07.450456,10,1125774,09/10/2019 17:05:41,Email,432907,09/10/2019 17:05:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.450456,5
+2019-09-16 15:09:07.450501,10,1125774,09/10/2019 17:05:41,Distribution,255813,09/10/2019 17:05:41,38,New Lead Distribution,,,,11404,test2@propair.ai,"ProPair, Rocks",,,,2019-09-16 15:09:07.450501,4
+2019-09-16 15:09:07.450545,10,1125775,09/10/2019 17:07:42,Status,155600,09/10/2019 17:07:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.450545,7
+2019-09-16 15:09:07.450594,10,1125775,09/10/2019 17:07:42,CreationLog,160788,09/10/2019 17:07:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.450594,
+2019-09-16 15:09:07.450638,10,1125775,09/10/2019 17:07:42,Email,432910,09/10/2019 17:07:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.450638,5
+2019-09-16 15:09:07.450682,10,1125775,09/10/2019 17:07:42,Email,432909,09/10/2019 17:07:40,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.450682,5
+2019-09-16 15:09:07.450725,10,1125775,09/10/2019 17:07:42,Distribution,255814,09/10/2019 17:07:42,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.450725,4
+2019-09-16 15:09:07.450769,10,1125776,09/10/2019 17:09:42,Status,155601,09/10/2019 17:09:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.450769,7
+2019-09-16 15:09:07.450813,10,1125776,09/10/2019 17:09:42,CreationLog,160789,09/10/2019 17:09:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.450813,
+2019-09-16 15:09:07.450856,10,1125776,09/10/2019 17:09:42,Export,113483,09/10/2019 17:09:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125776"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Freerateupdate"",
+		  ""campaignGroup"": ""My PROPAIR Organic"",
+		  ""creditProfile"": ""FAIR"",
+		  ""dateAdded"": ""9/10/2019 5:09 PM"",
+		  ""dayPhone"": ""(555) 262-2872"",
+		  ""email"": ""danielle84@cooper.com"",
+		  ""eveningPhone"": ""(555) 213-8330"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Kathryn"",
+		  ""intendedPropertyUse"": ""SECONDARYVACTN"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Smith"",
+		  ""loanAmount"": ""783740.00"",
+		  ""loanPurpose"": ""PURCHASE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""N.Y"",
+		  ""propertyType"": ""3"",
+		  ""propertyZipCode"": ""44445"",
+		  ""purchasePrice"": ""601473.00"",
+		  ""LeadProviderName"": ""MISSING"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.6"",
+		  ""FICO"": ""682""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.450856,6
+2019-09-16 15:09:07.450900,10,1125776,09/10/2019 17:09:42,Email,432911,09/10/2019 17:09:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.450900,5
+2019-09-16 15:09:07.450945,10,1125776,09/10/2019 17:09:42,Email,432912,09/10/2019 17:09:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.450945,5
+2019-09-16 15:09:07.450988,10,1125776,09/10/2019 17:09:42,Distribution,255815,09/10/2019 17:09:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.450988,4
+2019-09-16 15:09:07.451032,10,1125777,09/10/2019 17:11:43,Status,155602,09/10/2019 17:11:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.451032,7
+2019-09-16 15:09:07.451075,10,1125777,09/10/2019 17:11:43,CreationLog,160790,09/10/2019 17:11:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.451075,
+2019-09-16 15:09:07.451118,10,1125777,09/10/2019 17:11:43,Export,113484,09/10/2019 17:11:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125777"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LendingTree"",
+		  ""campaignGroup"": ""Self Generated"",
+		  ""creditProfile"": ""486"",
+		  ""dateAdded"": ""9/10/2019 5:11 PM"",
+		  ""dayPhone"": ""(555) 027-7161"",
+		  ""email"": ""lawsonchristine@garcia.com"",
+		  ""eveningPhone"": ""(555) 202-1583"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Kristi"",
+		  ""intendedPropertyUse"": ""SECONDARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Vazquez"",
+		  ""loanAmount"": ""41822.00"",
+		  ""loanPurpose"": ""DEBTCONSOLIDATION"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""CT"",
+		  ""propertyType"": ""SINGLEFAM"",
+		  ""propertyZipCode"": ""68297"",
+		  ""purchasePrice"": ""270929.00"",
+		  ""LeadProviderName"": ""TWILIO"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""1.0"",
+		  ""FICO"": ""611""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.451118,6
+2019-09-16 15:09:07.451161,10,1125777,09/10/2019 17:11:43,Email,432914,09/10/2019 17:11:42,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.451161,5
+2019-09-16 15:09:07.451207,10,1125777,09/10/2019 17:11:43,Email,432913,09/10/2019 17:11:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.451207,5
+2019-09-16 15:09:07.451251,10,1125777,09/10/2019 17:11:43,Distribution,255816,09/10/2019 17:11:43,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.451251,4
+2019-09-16 15:09:07.451295,10,1125778,09/11/2019 01:06:10,Status,155603,09/10/2019 17:13:45,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.451295,7
+2019-09-16 15:09:07.451340,10,1125778,09/11/2019 01:06:10,CreationLog,160791,09/10/2019 17:13:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.451340,
+2019-09-16 15:09:07.451383,10,1125778,09/11/2019 01:06:10,Export,113485,09/10/2019 17:13:45,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125778"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Website"",
+		  ""campaignGroup"": ""Nine Hills Transfers"",
+		  ""creditProfile"": ""678"",
+		  ""dateAdded"": ""9/10/2019 5:13 PM"",
+		  ""dayPhone"": ""(555) 337-2663"",
+		  ""email"": ""mcdonaldspencer@gmail.com"",
+		  ""eveningPhone"": ""(555) 665-5228"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Victor"",
+		  ""intendedPropertyUse"": ""REFINANCE"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Wong"",
+		  ""loanAmount"": ""604240.003"",
+		  ""loanPurpose"": ""1"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""NH"",
+		  ""propertyType"": ""CONDOMINIUM"",
+		  ""propertyZipCode"": ""60364"",
+		  ""purchasePrice"": ""328402.001"",
+		  ""LeadProviderName"": ""HTTPSMYPROPAIR-BANK.COMAPPLYVALOAN"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.5"",
+		  ""FICO"": ""740""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.451383,6
+2019-09-16 15:09:07.451430,10,1125778,09/11/2019 01:06:10,Email,432915,09/10/2019 17:13:45,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.451430,5
+2019-09-16 15:09:07.451475,10,1125778,09/11/2019 01:06:10,Email,432916,09/10/2019 17:13:45,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.451475,5
+2019-09-16 15:09:07.451518,10,1125778,09/11/2019 01:06:10,Distribution,255817,09/10/2019 17:13:45,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.451518,4
+2019-09-16 15:09:07.451561,10,1125779,09/10/2019 17:15:42,Status,155604,09/10/2019 17:15:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.451561,7
+2019-09-16 15:09:07.451605,10,1125779,09/10/2019 17:15:42,CreationLog,160792,09/10/2019 17:15:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.451605,
+2019-09-16 15:09:07.451648,10,1125779,09/10/2019 17:15:42,Export,113486,09/10/2019 17:15:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125779"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Self Generated"",
+		  ""campaignGroup"": ""Use Branch Specific"",
+		  ""creditProfile"": ""780"",
+		  ""dateAdded"": ""9/10/2019 5:15 PM"",
+		  ""dayPhone"": ""(555) 234-6938"",
+		  ""email"": ""foconnor@stuart.com"",
+		  ""eveningPhone"": ""(555) 462-9621"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Jasmine"",
+		  ""intendedPropertyUse"": ""SECONDHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Jensen"",
+		  ""loanAmount"": ""777005.002"",
+		  ""loanPurpose"": ""VASTREAMLINE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""ID"",
+		  ""propertyType"": ""PRIMARYRESIDENCE"",
+		  ""propertyZipCode"": ""52938"",
+		  ""purchasePrice"": ""599103.001"",
+		  ""LeadProviderName"": ""REALTOR.COM"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.3"",
+		  ""FICO"": ""770""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.451648,6
+2019-09-16 15:09:07.451691,10,1125779,09/10/2019 17:15:42,Email,432917,09/10/2019 17:15:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.451691,5
+2019-09-16 15:09:07.451734,10,1125779,09/10/2019 17:15:42,Email,432918,09/10/2019 17:15:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.451734,5
+2019-09-16 15:09:07.451778,10,1125779,09/10/2019 17:15:42,Distribution,255818,09/10/2019 17:15:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.451778,4
+2019-09-16 15:09:07.451826,10,1125780,09/10/2019 17:17:43,Status,155605,09/10/2019 17:17:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.451826,7
+2019-09-16 15:09:07.451870,10,1125780,09/10/2019 17:17:43,CreationLog,160793,09/10/2019 17:17:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.451870,
+2019-09-16 15:09:07.451913,10,1125780,09/10/2019 17:17:43,Export,113487,09/10/2019 17:17:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125780"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Lendilio"",
+		  ""campaignGroup"": ""SE 3rd Party"",
+		  ""creditProfile"": ""662"",
+		  ""dateAdded"": ""9/10/2019 5:17 PM"",
+		  ""dayPhone"": ""(555) 577-4693"",
+		  ""email"": ""delacruzsheena@wells.com"",
+		  ""eveningPhone"": ""(555) 936-5058"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Sara"",
+		  ""intendedPropertyUse"": ""SECONDVACATIONHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Davis"",
+		  ""loanAmount"": ""452294.00"",
+		  ""loanPurpose"": ""HOME"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""DELAWARE"",
+		  ""propertyType"": ""APO"",
+		  ""propertyZipCode"": ""47051"",
+		  ""purchasePrice"": ""56445.00"",
+		  ""LeadProviderName"": ""HAWKEYEMARKETING"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""1.0"",
+		  ""FICO"": ""328""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.451913,6
+2019-09-16 15:09:07.451956,10,1125780,09/10/2019 17:17:43,Email,432920,09/10/2019 17:17:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.451956,5
+2019-09-16 15:09:07.451999,10,1125780,09/10/2019 17:17:43,Email,432919,09/10/2019 17:17:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.451999,5
+2019-09-16 15:09:07.452044,10,1125780,09/10/2019 17:17:43,Distribution,255819,09/10/2019 17:17:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.452044,4
+2019-09-16 15:09:07.452088,10,1125781,09/11/2019 01:06:10,Status,155606,09/10/2019 17:19:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.452088,7
+2019-09-16 15:09:07.452131,10,1125781,09/11/2019 01:06:10,CreationLog,160794,09/10/2019 17:19:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.452131,
+2019-09-16 15:09:07.452174,10,1125781,09/11/2019 01:06:10,Export,113488,09/10/2019 17:19:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125781"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""BestRateReferrals"",
+		  ""campaignGroup"": ""PROPAIR 3rd Party"",
+		  ""creditProfile"": ""573"",
+		  ""dateAdded"": ""9/10/2019 5:19 PM"",
+		  ""dayPhone"": ""(555) 004-5964"",
+		  ""email"": ""lambertjillian@krause-greene.com"",
+		  ""eveningPhone"": ""(555) 647-1485"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Jennifer"",
+		  ""intendedPropertyUse"": ""PRIMARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Greene"",
+		  ""loanAmount"": ""818585.00"",
+		  ""loanPurpose"": ""HOMEIMPROVEMENT"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""VT"",
+		  ""propertyType"": ""CONDO58STORY"",
+		  ""propertyZipCode"": ""39395"",
+		  ""purchasePrice"": ""783108.00"",
+		  ""LeadProviderName"": ""TECHNIECODE"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""774""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.452174,6
+2019-09-16 15:09:07.452216,10,1125781,09/11/2019 01:06:10,Email,432921,09/10/2019 17:19:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.452216,5
+2019-09-16 15:09:07.452259,10,1125781,09/11/2019 01:06:10,Email,432922,09/10/2019 17:19:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.452259,5
+2019-09-16 15:09:07.452303,10,1125781,09/11/2019 01:06:10,Distribution,255820,09/10/2019 17:19:41,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.452303,4
+2019-09-16 15:09:07.452348,10,1125782,09/11/2019 01:06:11,Status,155607,09/10/2019 17:21:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.452348,7
+2019-09-16 15:09:07.452392,10,1125782,09/11/2019 01:06:11,CreationLog,160795,09/10/2019 17:21:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.452392,
+2019-09-16 15:09:07.452452,10,1125782,09/11/2019 01:06:11,Export,113489,09/10/2019 17:21:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125782"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Referral"",
+		  ""campaignGroup"": ""Test Campaign"",
+		  ""creditProfile"": ""FAIR"",
+		  ""dateAdded"": ""9/10/2019 5:21 PM"",
+		  ""dayPhone"": ""(555) 546-8919"",
+		  ""email"": ""scottphilip@schmidt-roberts.net"",
+		  ""eveningPhone"": ""(555) 363-0551"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Teresa"",
+		  ""intendedPropertyUse"": ""REFINANCE"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Cunningham"",
+		  ""loanAmount"": ""776358.00"",
+		  ""loanPurpose"": ""BARRYCOOPER145@GMAIL.COM"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""NEWJERSEY"",
+		  ""propertyType"": ""MULTIPLEFAMILYDWELLING"",
+		  ""propertyZipCode"": ""71034"",
+		  ""purchasePrice"": ""591672.00"",
+		  ""LeadProviderName"": ""MISSING"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.4"",
+		  ""FICO"": ""301""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.452452,6
+2019-09-16 15:09:07.452496,10,1125782,09/11/2019 01:06:11,Email,432923,09/10/2019 17:21:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.452496,5
+2019-09-16 15:09:07.452539,10,1125782,09/11/2019 01:06:11,Email,432924,09/10/2019 17:21:42,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.452539,5
+2019-09-16 15:09:07.452581,10,1125782,09/11/2019 01:06:11,Distribution,255821,09/10/2019 17:21:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.452581,4
+2019-09-16 15:09:07.452627,10,1125783,09/11/2019 01:06:12,Status,155608,09/10/2019 17:23:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.452627,7
+2019-09-16 15:09:07.452670,10,1125783,09/11/2019 01:06:12,CreationLog,160796,09/10/2019 17:23:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.452670,
+2019-09-16 15:09:07.452713,10,1125783,09/11/2019 01:06:12,Export,113490,09/10/2019 17:23:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125783"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Lendilio"",
+		  ""campaignGroup"": ""SE 3rd Party"",
+		  ""creditProfile"": ""GOODSOMELATEPAYMENTSOVER1YEARAGO"",
+		  ""dateAdded"": ""9/10/2019 5:23 PM"",
+		  ""dayPhone"": ""(555) 050-5815"",
+		  ""email"": ""stephensjustin@harrell.org"",
+		  ""eveningPhone"": ""(555) 755-3566"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Matthew"",
+		  ""intendedPropertyUse"": ""SECONDARYVACTN"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Rhodes"",
+		  ""loanAmount"": ""967326.0032"",
+		  ""loanPurpose"": ""PUR"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MS"",
+		  ""propertyType"": ""INVESTMENT"",
+		  ""propertyZipCode"": ""80140"",
+		  ""purchasePrice"": ""116977.00"",
+		  ""LeadProviderName"": ""MISSING"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.2"",
+		  ""FICO"": ""707""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.452713,6
+2019-09-16 15:09:07.452756,10,1125783,09/11/2019 01:06:12,Email,432925,09/10/2019 17:23:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.452756,5
+2019-09-16 15:09:07.452802,10,1125783,09/11/2019 01:06:12,Email,432926,09/10/2019 17:23:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.452802,5
+2019-09-16 15:09:07.452846,10,1125783,09/11/2019 01:06:12,Distribution,255822,09/10/2019 17:23:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.452846,4
+2019-09-16 15:09:07.452893,10,1125784,09/11/2019 01:06:12,Status,155609,09/10/2019 17:25:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.452893,7
+2019-09-16 15:09:07.452955,10,1125784,09/11/2019 01:06:12,CreationLog,160797,09/10/2019 17:25:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.452955,
+2019-09-16 15:09:07.453000,10,1125784,09/11/2019 01:06:12,Export,113491,09/10/2019 17:25:42,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125784"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Freerateupdate"",
+		  ""campaignGroup"": ""My PROPAIR Organic"",
+		  ""creditProfile"": ""620679"",
+		  ""dateAdded"": ""9/10/2019 5:25 PM"",
+		  ""dayPhone"": ""(555) 723-0447"",
+		  ""email"": ""riosmitchell@johnson.com"",
+		  ""eveningPhone"": ""(555) 500-2824"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Christian"",
+		  ""intendedPropertyUse"": ""SECONDHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Archer"",
+		  ""loanAmount"": ""692414.00"",
+		  ""loanPurpose"": ""USDAHOMELOAN"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MT"",
+		  ""propertyType"": ""INVESTMENTPROPERTY"",
+		  ""propertyZipCode"": ""69422"",
+		  ""purchasePrice"": ""734368.00"",
+		  ""LeadProviderName"": ""SELFGENERATEDOUTSIDES"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.5"",
+		  ""FICO"": ""535""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.453000,6
+2019-09-16 15:09:07.453042,10,1125784,09/11/2019 01:06:12,Email,432928,09/10/2019 17:25:42,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.453042,5
+2019-09-16 15:09:07.453088,10,1125784,09/11/2019 01:06:12,Email,432927,09/10/2019 17:25:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.453088,5
+2019-09-16 15:09:07.453132,10,1125784,09/11/2019 01:06:12,Distribution,255823,09/10/2019 17:25:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.453132,4
+2019-09-16 15:09:07.453176,10,1125785,09/10/2019 17:27:42,Status,155610,09/10/2019 17:27:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.453176,7
+2019-09-16 15:09:07.453220,10,1125785,09/10/2019 17:27:42,CreationLog,160798,09/10/2019 17:27:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.453220,
+2019-09-16 15:09:07.453263,10,1125785,09/10/2019 17:27:42,Export,113492,09/10/2019 17:27:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125785"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Zeta"",
+		  ""campaignGroup"": ""Banker RPG"",
+		  ""creditProfile"": ""EXCELLENT740ANDABOVE"",
+		  ""dateAdded"": ""9/10/2019 5:27 PM"",
+		  ""dayPhone"": ""(555) 213-5688"",
+		  ""email"": ""martinezkimberly@gmail.com"",
+		  ""eveningPhone"": ""(555) 111-4756"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Jose"",
+		  ""intendedPropertyUse"": ""SECONDARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Rice"",
+		  ""loanAmount"": ""757403.003"",
+		  ""loanPurpose"": ""HARP"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""RHODEISLAND"",
+		  ""propertyType"": ""SFR"",
+		  ""propertyZipCode"": ""76613"",
+		  ""purchasePrice"": ""59829.00"",
+		  ""LeadProviderName"": ""MISSING"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.1"",
+		  ""FICO"": ""396""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.453263,6
+2019-09-16 15:09:07.453305,10,1125785,09/10/2019 17:27:42,Email,432930,09/10/2019 17:27:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.453305,5
+2019-09-16 15:09:07.453348,10,1125785,09/10/2019 17:27:42,Email,432929,09/10/2019 17:27:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.453348,5
+2019-09-16 15:09:07.453391,10,1125785,09/10/2019 17:27:42,Distribution,255824,09/10/2019 17:27:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.453391,4
+2019-09-16 15:09:07.453437,10,1125786,09/11/2019 01:06:12,Status,155611,09/10/2019 17:29:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.453437,7
+2019-09-16 15:09:07.453481,10,1125786,09/11/2019 01:06:12,CreationLog,160799,09/10/2019 17:29:41,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.453481,
+2019-09-16 15:09:07.453524,10,1125786,09/11/2019 01:06:12,Export,113493,09/10/2019 17:29:42,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125786"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Freerateupdate"",
+		  ""campaignGroup"": ""My PROPAIR Organic"",
+		  ""creditProfile"": ""798"",
+		  ""dateAdded"": ""9/10/2019 5:29 PM"",
+		  ""dayPhone"": ""(555) 383-9345"",
+		  ""email"": ""mariah75@hotmail.com"",
+		  ""eveningPhone"": ""(555) 191-2241"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Madeline"",
+		  ""intendedPropertyUse"": ""REFINANCE"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Mathews"",
+		  ""loanAmount"": ""770677.002"",
+		  ""loanPurpose"": ""2NDMORTGAGE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""OHIO"",
+		  ""propertyType"": ""MULTIFAMILYHOME"",
+		  ""propertyZipCode"": ""37924"",
+		  ""purchasePrice"": ""759024.00"",
+		  ""LeadProviderName"": ""CALLCENTER"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.2"",
+		  ""FICO"": ""825""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.453524,6
+2019-09-16 15:09:07.453567,10,1125786,09/11/2019 01:06:12,Email,432931,09/10/2019 17:29:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.453567,5
+2019-09-16 15:09:07.453610,10,1125786,09/11/2019 01:06:12,Email,432932,09/10/2019 17:29:42,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.453610,5
+2019-09-16 15:09:07.453652,10,1125786,09/11/2019 01:06:12,Distribution,255825,09/10/2019 17:29:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.453652,4
+2019-09-16 15:09:07.453703,10,1125787,09/10/2019 17:31:41,Status,155612,09/10/2019 17:31:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.453703,7
+2019-09-16 15:09:07.453745,10,1125787,09/10/2019 17:31:41,CreationLog,160800,09/10/2019 17:31:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.453745,
+2019-09-16 15:09:07.453785,10,1125787,09/10/2019 17:31:41,Email,432934,09/10/2019 17:31:40,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.453785,5
+2019-09-16 15:09:07.453825,10,1125787,09/10/2019 17:31:41,Email,432933,09/10/2019 17:31:40,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.453825,5
+2019-09-16 15:09:07.453866,10,1125787,09/10/2019 17:31:41,Distribution,255826,09/10/2019 17:31:41,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.453866,4
+2019-09-16 15:09:07.453909,10,1125788,09/10/2019 17:33:42,Status,155613,09/10/2019 17:33:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.453909,7
+2019-09-16 15:09:07.453957,10,1125788,09/10/2019 17:33:42,CreationLog,160801,09/10/2019 17:33:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.453957,
+2019-09-16 15:09:07.454016,10,1125788,09/10/2019 17:33:42,Export,113494,09/10/2019 17:33:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125788"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Lendilio"",
+		  ""campaignGroup"": ""SE 3rd Party"",
+		  ""creditProfile"": ""VERYGOOD720739"",
+		  ""dateAdded"": ""9/10/2019 5:33 PM"",
+		  ""dayPhone"": ""(555) 506-9688"",
+		  ""email"": ""snydermichelle@yahoo.com"",
+		  ""eveningPhone"": ""(555) 239-6257"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Michael"",
+		  ""intendedPropertyUse"": ""SECONDHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""White"",
+		  ""loanAmount"": ""153441.005"",
+		  ""loanPurpose"": ""REFIRT"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""NEWHAMPSHIRE"",
+		  ""propertyType"": ""MULTIFAMILYDWELLINGUNIT"",
+		  ""propertyZipCode"": ""37563"",
+		  ""purchasePrice"": ""629467.0035"",
+		  ""LeadProviderName"": ""FHA.COM"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.7"",
+		  ""FICO"": ""515""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.454016,6
+2019-09-16 15:09:07.454072,10,1125788,09/10/2019 17:33:42,Email,432935,09/10/2019 17:33:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.454072,5
+2019-09-16 15:09:07.454116,10,1125788,09/10/2019 17:33:42,Email,432936,09/10/2019 17:33:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.454116,5
+2019-09-16 15:09:07.454159,10,1125788,09/10/2019 17:33:42,Distribution,255827,09/10/2019 17:33:41,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.454159,4
+2019-09-16 15:09:07.454203,10,1125789,09/10/2019 17:35:42,Status,155614,09/10/2019 17:35:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.454203,7
+2019-09-16 15:09:07.454253,10,1125789,09/10/2019 17:35:42,CreationLog,160802,09/10/2019 17:35:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.454253,
+2019-09-16 15:09:07.454297,10,1125789,09/10/2019 17:35:42,Export,113495,09/10/2019 17:35:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125789"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Website"",
+		  ""campaignGroup"": ""Nine Hills Transfers"",
+		  ""creditProfile"": ""AVERAGE620639"",
+		  ""dateAdded"": ""9/10/2019 5:35 PM"",
+		  ""dayPhone"": ""(555) 300-8716"",
+		  ""email"": ""debra87@hotmail.com"",
+		  ""eveningPhone"": ""(555) 277-4078"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Robert"",
+		  ""intendedPropertyUse"": ""INVESTMENT"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Martinez"",
+		  ""loanAmount"": ""65241.002"",
+		  ""loanPurpose"": ""PURPOSE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""TE"",
+		  ""propertyType"": ""MULTI"",
+		  ""propertyZipCode"": ""76738"",
+		  ""purchasePrice"": ""542668.003"",
+		  ""LeadProviderName"": ""HTTPSMYPROPAIR-BANK.COMPROPAIR-BANKBANKERINDEXC.GREGG"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.2"",
+		  ""FICO"": ""749""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.454297,6
+2019-09-16 15:09:07.454342,10,1125789,09/10/2019 17:35:42,Email,432938,09/10/2019 17:35:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.454342,5
+2019-09-16 15:09:07.454389,10,1125789,09/10/2019 17:35:42,Email,432937,09/10/2019 17:35:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.454389,5
+2019-09-16 15:09:07.454434,10,1125789,09/10/2019 17:35:42,Distribution,255828,09/10/2019 17:35:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.454434,4
+2019-09-16 15:09:07.454479,10,1125790,09/11/2019 01:06:13,Status,155615,09/10/2019 17:37:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.454479,7
+2019-09-16 15:09:07.454529,10,1125790,09/11/2019 01:06:13,CreationLog,160803,09/10/2019 17:37:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.454529,
+2019-09-16 15:09:07.454575,10,1125790,09/11/2019 01:06:13,Export,113496,09/10/2019 17:37:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125790"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Wisdom"",
+		  ""campaignGroup"": ""Perks"",
+		  ""creditProfile"": ""802"",
+		  ""dateAdded"": ""9/10/2019 5:37 PM"",
+		  ""dayPhone"": ""(555) 880-5120"",
+		  ""email"": ""jeffery21@moreno.com"",
+		  ""eveningPhone"": ""(555) 048-2946"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Tiffany"",
+		  ""intendedPropertyUse"": ""REFINANCE"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Thompson"",
+		  ""loanAmount"": ""377019.0031"",
+		  ""loanPurpose"": ""11"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""FLFLORIDA"",
+		  ""propertyType"": ""HIGHRISECONDOMINIUM"",
+		  ""propertyZipCode"": ""61514"",
+		  ""purchasePrice"": ""564579.00"",
+		  ""LeadProviderName"": ""HTTPSMYPROPAIR-BANK.COMPROPAIR-BANKBANKERINDEXF.MARTINEZ"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.6"",
+		  ""FICO"": ""436""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.454575,6
+2019-09-16 15:09:07.454620,10,1125790,09/11/2019 01:06:13,Email,432939,09/10/2019 17:37:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.454620,5
+2019-09-16 15:09:07.454664,10,1125790,09/11/2019 01:06:13,Email,432940,09/10/2019 17:37:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.454664,5
+2019-09-16 15:09:07.454708,10,1125790,09/11/2019 01:06:13,Distribution,255829,09/10/2019 17:37:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.454708,4
+2019-09-16 15:09:07.454752,10,1125791,09/11/2019 01:06:14,Status,155616,09/10/2019 17:39:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.454752,7
+2019-09-16 15:09:07.454802,10,1125791,09/11/2019 01:06:14,CreationLog,160804,09/10/2019 17:39:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.454802,
+2019-09-16 15:09:07.454846,10,1125791,09/11/2019 01:06:14,Export,113497,09/10/2019 17:39:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125791"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""BestRateReferrals"",
+		  ""campaignGroup"": ""PROPAIR 3rd Party"",
+		  ""creditProfile"": ""613"",
+		  ""dateAdded"": ""9/10/2019 5:39 PM"",
+		  ""dayPhone"": ""(555) 201-6443"",
+		  ""email"": ""sandersadam@yahoo.com"",
+		  ""eveningPhone"": ""(555) 963-9682"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Heather"",
+		  ""intendedPropertyUse"": ""PRIMARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Vazquez"",
+		  ""loanAmount"": ""462186.005"",
+		  ""loanPurpose"": ""TOWNHOME"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""PA"",
+		  ""propertyType"": ""TRAILER"",
+		  ""propertyZipCode"": ""49675"",
+		  ""purchasePrice"": ""249236.00"",
+		  ""LeadProviderName"": ""LOWERMYBILLS"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.5"",
+		  ""FICO"": ""773""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.454846,6
+2019-09-16 15:09:07.454891,10,1125791,09/11/2019 01:06:14,Email,432941,09/10/2019 17:39:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.454891,5
+2019-09-16 15:09:07.454935,10,1125791,09/11/2019 01:06:14,Email,432942,09/10/2019 17:39:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.454935,5
+2019-09-16 15:09:07.454983,10,1125791,09/11/2019 01:06:14,Distribution,255830,09/10/2019 17:39:41,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.454983,4
+2019-09-16 15:09:07.455029,10,1125792,09/11/2019 01:06:14,Status,155617,09/10/2019 17:41:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.455029,7
+2019-09-16 15:09:07.455076,10,1125792,09/11/2019 01:06:14,CreationLog,160805,09/10/2019 17:41:41,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.455076,
+2019-09-16 15:09:07.455121,10,1125792,09/11/2019 01:06:14,Export,113498,09/10/2019 17:41:42,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125792"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LendingTree"",
+		  ""campaignGroup"": ""Self Generated"",
+		  ""creditProfile"": ""POOR"",
+		  ""dateAdded"": ""9/10/2019 5:41 PM"",
+		  ""dayPhone"": ""(555) 728-6006"",
+		  ""email"": ""audreydowns@brown.com"",
+		  ""eveningPhone"": ""(555) 473-0769"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Jose"",
+		  ""intendedPropertyUse"": ""SECONDHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Harris"",
+		  ""loanAmount"": ""493848.00"",
+		  ""loanPurpose"": ""GOOD"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""FL33194"",
+		  ""propertyType"": ""TOWNHOUSE"",
+		  ""propertyZipCode"": ""78248"",
+		  ""purchasePrice"": ""740673.0021"",
+		  ""LeadProviderName"": ""HTTPSMYPROPAIR-BANK.COMAPPLYVALOAN"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.3"",
+		  ""FICO"": ""408""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.455121,6
+2019-09-16 15:09:07.455165,10,1125792,09/11/2019 01:06:14,Email,432943,09/10/2019 17:41:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.455165,5
+2019-09-16 15:09:07.455210,10,1125792,09/11/2019 01:06:14,Email,432944,09/10/2019 17:41:42,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.455210,5
+2019-09-16 15:09:07.455253,10,1125792,09/11/2019 01:06:14,Distribution,255831,09/10/2019 17:41:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.455253,4
+2019-09-16 15:09:07.455299,10,1125793,09/11/2019 01:06:15,Status,155618,09/10/2019 17:43:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.455299,7
+2019-09-16 15:09:07.455346,10,1125793,09/11/2019 01:06:15,CreationLog,160806,09/10/2019 17:43:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.455346,
+2019-09-16 15:09:07.455390,10,1125793,09/11/2019 01:06:15,Export,113499,09/10/2019 17:43:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125793"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LendGo"",
+		  ""campaignGroup"": ""Retired"",
+		  ""creditProfile"": ""GOOD"",
+		  ""dateAdded"": ""9/10/2019 5:43 PM"",
+		  ""dayPhone"": ""(555) 620-3920"",
+		  ""email"": ""olsenteresa@yahoo.com"",
+		  ""eveningPhone"": ""(555) 582-6749"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Mark"",
+		  ""intendedPropertyUse"": ""SECONDARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Berger"",
+		  ""loanAmount"": ""487006.005"",
+		  ""loanPurpose"": ""REVERSE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""46180"",
+		  ""propertyType"": ""SINGLE"",
+		  ""propertyZipCode"": ""78191"",
+		  ""purchasePrice"": ""560492.00"",
+		  ""LeadProviderName"": ""HAWKEYELEADS"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.8"",
+		  ""FICO"": ""667""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.455390,6
+2019-09-16 15:09:07.455435,10,1125793,09/11/2019 01:06:15,Email,432946,09/10/2019 17:43:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.455435,5
+2019-09-16 15:09:07.455479,10,1125793,09/11/2019 01:06:15,Email,432945,09/10/2019 17:43:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.455479,5
+2019-09-16 15:09:07.455522,10,1125793,09/11/2019 01:06:15,Distribution,255832,09/10/2019 17:43:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.455522,4
+2019-09-16 15:09:07.455567,10,1125794,09/10/2019 17:45:41,Status,155619,09/10/2019 17:45:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.455567,7
+2019-09-16 15:09:07.455615,10,1125794,09/10/2019 17:45:41,CreationLog,160807,09/10/2019 17:45:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.455615,
+2019-09-16 15:09:07.455665,10,1125794,09/10/2019 17:45:41,Export,113500,09/10/2019 17:45:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125794"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Wisdom"",
+		  ""campaignGroup"": ""Perks"",
+		  ""creditProfile"": ""EXCELLENT"",
+		  ""dateAdded"": ""9/10/2019 5:45 PM"",
+		  ""dayPhone"": ""(555) 942-8734"",
+		  ""email"": ""vleonard@yahoo.com"",
+		  ""eveningPhone"": ""(555) 677-1519"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Earl"",
+		  ""intendedPropertyUse"": ""PRIMARYHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Fuller"",
+		  ""loanAmount"": ""383899.00"",
+		  ""loanPurpose"": ""LOWERMYINTERESTRATE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""AZ"",
+		  ""propertyType"": ""3"",
+		  ""propertyZipCode"": ""76815"",
+		  ""purchasePrice"": ""116724.003"",
+		  ""LeadProviderName"": ""TECHNIECODE"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.0"",
+		  ""FICO"": ""351""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.455665,6
+2019-09-16 15:09:07.455709,10,1125794,09/10/2019 17:45:41,Email,432947,09/10/2019 17:45:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.455709,5
+2019-09-16 15:09:07.455753,10,1125794,09/10/2019 17:45:41,Email,432948,09/10/2019 17:45:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.455753,5
+2019-09-16 15:09:07.455797,10,1125794,09/10/2019 17:45:41,Distribution,255833,09/10/2019 17:45:41,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.455797,4
+2019-09-16 15:09:07.455842,10,1125795,09/10/2019 17:47:44,Status,155620,09/10/2019 17:47:44,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.455842,7
+2019-09-16 15:09:07.455886,10,1125795,09/10/2019 17:47:44,CreationLog,160808,09/10/2019 17:47:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.455886,
+2019-09-16 15:09:07.455932,10,1125795,09/10/2019 17:47:44,Export,113501,09/10/2019 17:47:44,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125795"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Website"",
+		  ""campaignGroup"": ""Nine Hills Transfers"",
+		  ""creditProfile"": ""844"",
+		  ""dateAdded"": ""9/10/2019 5:47 PM"",
+		  ""dayPhone"": ""(555) 236-0525"",
+		  ""email"": ""christopher81@johns.com"",
+		  ""eveningPhone"": ""(555) 990-1862"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Angela"",
+		  ""intendedPropertyUse"": ""SECONDVACATIONHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Fuentes"",
+		  ""loanAmount"": ""889802.00"",
+		  ""loanPurpose"": ""CHANGETERMS"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""AR"",
+		  ""propertyType"": ""TOWNHOUSE"",
+		  ""propertyZipCode"": ""68027"",
+		  ""purchasePrice"": ""582161.00"",
+		  ""LeadProviderName"": ""CORPPERKS"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.1"",
+		  ""FICO"": ""468""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.455932,6
+2019-09-16 15:09:07.455976,10,1125795,09/10/2019 17:47:44,Email,432949,09/10/2019 17:47:44,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.455976,5
+2019-09-16 15:09:07.456020,10,1125795,09/10/2019 17:47:44,Email,432950,09/10/2019 17:47:44,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.456020,5
+2019-09-16 15:09:07.456064,10,1125795,09/10/2019 17:47:44,Distribution,255834,09/10/2019 17:47:44,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.456064,4
+2019-09-16 15:09:07.456109,10,1125796,09/11/2019 01:06:15,Status,155621,09/10/2019 17:49:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.456109,7
+2019-09-16 15:09:07.456153,10,1125796,09/11/2019 01:06:15,CreationLog,160809,09/10/2019 17:49:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.456153,
+2019-09-16 15:09:07.456199,10,1125796,09/11/2019 01:06:15,Export,113502,09/10/2019 17:49:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125796"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Self Generated"",
+		  ""campaignGroup"": ""Use Branch Specific"",
+		  ""creditProfile"": ""VERYGOOD"",
+		  ""dateAdded"": ""9/10/2019 5:49 PM"",
+		  ""dayPhone"": ""(555) 531-5473"",
+		  ""email"": ""charlescampbell@yahoo.com"",
+		  ""eveningPhone"": ""(555) 228-5751"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Elizabeth"",
+		  ""intendedPropertyUse"": ""PRIMARYHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Walton"",
+		  ""loanAmount"": ""903520.003"",
+		  ""loanPurpose"": ""CONSTRUCTIONONLY"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""ININDIANA"",
+		  ""propertyType"": ""CONDOMINIUMTOWNHOME"",
+		  ""propertyZipCode"": ""73411"",
+		  ""purchasePrice"": ""535904.00"",
+		  ""LeadProviderName"": ""SELF"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.1"",
+		  ""FICO"": ""731""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.456199,6
+2019-09-16 15:09:07.456249,10,1125796,09/11/2019 01:06:15,Email,432951,09/10/2019 17:49:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.456249,5
+2019-09-16 15:09:07.456295,10,1125796,09/11/2019 01:06:15,Email,432952,09/10/2019 17:49:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.456295,5
+2019-09-16 15:09:07.456338,10,1125796,09/11/2019 01:06:15,Distribution,255835,09/10/2019 17:49:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.456338,4
+2019-09-16 15:09:07.456383,10,1125797,09/11/2019 01:06:16,Status,155622,09/10/2019 17:51:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.456383,7
+2019-09-16 15:09:07.456429,10,1125797,09/11/2019 01:06:16,CreationLog,160810,09/10/2019 17:51:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.456429,
+2019-09-16 15:09:07.456475,10,1125797,09/11/2019 01:06:16,Export,113503,09/10/2019 17:51:42,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125797"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Zeta"",
+		  ""campaignGroup"": ""Banker RPG"",
+		  ""creditProfile"": ""POOR"",
+		  ""dateAdded"": ""9/10/2019 5:51 PM"",
+		  ""dayPhone"": ""(555) 110-0521"",
+		  ""email"": ""valenzueladana@gmail.com"",
+		  ""eveningPhone"": ""(555) 415-2598"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Paul"",
+		  ""intendedPropertyUse"": ""18318ARBORCRESTDR"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Sanchez"",
+		  ""loanAmount"": ""964609.00"",
+		  ""loanPurpose"": ""REVERSE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""LA"",
+		  ""propertyType"": ""MOBILE"",
+		  ""propertyZipCode"": ""62814"",
+		  ""purchasePrice"": ""104233.00"",
+		  ""LeadProviderName"": ""HTTPSMYPROPAIR-BANK.COMTYPESOFRATES"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.3"",
+		  ""FICO"": ""443""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.456475,6
+2019-09-16 15:09:07.456518,10,1125797,09/11/2019 01:06:16,Email,432953,09/10/2019 17:51:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.456518,5
+2019-09-16 15:09:07.456563,10,1125797,09/11/2019 01:06:16,Email,432954,09/10/2019 17:51:42,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.456563,5
+2019-09-16 15:09:07.456607,10,1125797,09/11/2019 01:06:16,Distribution,255836,09/10/2019 17:51:43,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.456607,4
+2019-09-16 15:09:07.456652,10,1125798,09/10/2019 17:53:42,Status,155623,09/10/2019 17:53:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.456652,7
+2019-09-16 15:09:07.456696,10,1125798,09/10/2019 17:53:42,CreationLog,160811,09/10/2019 17:53:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.456696,
+2019-09-16 15:09:07.456744,10,1125798,09/10/2019 17:53:42,Export,113504,09/10/2019 17:53:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125798"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""BestRateReferrals"",
+		  ""campaignGroup"": ""PROPAIR 3rd Party"",
+		  ""creditProfile"": ""GOOD"",
+		  ""dateAdded"": ""9/10/2019 5:53 PM"",
+		  ""dayPhone"": ""(555) 525-6474"",
+		  ""email"": ""matthew41@gmail.com"",
+		  ""eveningPhone"": ""(555) 892-3555"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Lance"",
+		  ""intendedPropertyUse"": ""SECONDHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Thompson"",
+		  ""loanAmount"": ""926166.001"",
+		  ""loanPurpose"": ""CASHOUT"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""TXTEXAS"",
+		  ""propertyType"": ""SINGLEFAMILYRESIDENCE"",
+		  ""propertyZipCode"": ""66989"",
+		  ""purchasePrice"": ""403319.00"",
+		  ""LeadProviderName"": ""CALLCENTER"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.7"",
+		  ""FICO"": ""736""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.456744,6
+2019-09-16 15:09:07.456790,10,1125798,09/10/2019 17:53:42,Email,432955,09/10/2019 17:53:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.456790,5
+2019-09-16 15:09:07.456834,10,1125798,09/10/2019 17:53:42,Email,432956,09/10/2019 17:53:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.456834,5
+2019-09-16 15:09:07.456893,10,1125798,09/10/2019 17:53:42,Distribution,255837,09/10/2019 17:53:42,38,New Lead Distribution,,,,11403,test3@propair.ai,"Johnson, Devon",,,,2019-09-16 15:09:07.456893,4
+2019-09-16 15:09:07.456981,10,1125799,09/11/2019 01:06:16,Status,155624,09/10/2019 17:55:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.456981,7
+2019-09-16 15:09:07.457036,10,1125799,09/11/2019 01:06:16,CreationLog,160812,09/10/2019 17:55:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.457036,
+2019-09-16 15:09:07.457089,10,1125799,09/11/2019 01:06:16,Export,113505,09/10/2019 17:55:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125799"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Zeta"",
+		  ""campaignGroup"": ""Banker RPG"",
+		  ""creditProfile"": ""FAIR620680"",
+		  ""dateAdded"": ""9/10/2019 5:55 PM"",
+		  ""dayPhone"": ""(555) 957-6315"",
+		  ""email"": ""marissa73@gmail.com"",
+		  ""eveningPhone"": ""(555) 273-6539"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Jason"",
+		  ""intendedPropertyUse"": ""INVESTMENT"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Walker"",
+		  ""loanAmount"": ""887836.00"",
+		  ""loanPurpose"": ""8"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""TX"",
+		  ""propertyType"": ""MANUFACTURED"",
+		  ""propertyZipCode"": ""41338"",
+		  ""purchasePrice"": ""197695.00"",
+		  ""LeadProviderName"": ""ZILLOWGETSEARCHRESULTS"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""627""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.457089,6
+2019-09-16 15:09:07.457143,10,1125799,09/11/2019 01:06:16,Email,432958,09/10/2019 17:55:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.457143,5
+2019-09-16 15:09:07.457198,10,1125799,09/11/2019 01:06:16,Email,432957,09/10/2019 17:55:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.457198,5
+2019-09-16 15:09:07.457250,10,1125799,09/11/2019 01:06:16,Distribution,255838,09/10/2019 17:55:42,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.457250,4
+2019-09-16 15:09:07.457301,10,1125800,09/10/2019 17:57:41,Status,155625,09/10/2019 17:57:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.457301,7
+2019-09-16 15:09:07.457352,10,1125800,09/10/2019 17:57:41,CreationLog,160813,09/10/2019 17:57:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.457352,
+2019-09-16 15:09:07.457402,10,1125800,09/10/2019 17:57:41,Email,432960,09/10/2019 17:57:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.457402,5
+2019-09-16 15:09:07.457438,10,1125800,09/10/2019 17:57:41,Email,432959,09/10/2019 17:57:40,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.457438,5
+2019-09-16 15:09:07.457471,10,1125800,09/10/2019 17:57:41,Distribution,255839,09/10/2019 17:57:41,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.457471,4
+2019-09-16 15:09:07.457506,10,1125801,09/10/2019 17:59:41,Status,155626,09/10/2019 17:59:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.457506,7
+2019-09-16 15:09:07.457539,10,1125801,09/10/2019 17:59:41,CreationLog,160814,09/10/2019 17:59:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.457539,
+2019-09-16 15:09:07.457575,10,1125801,09/10/2019 17:59:41,Export,113506,09/10/2019 17:59:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125801"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Zeta"",
+		  ""campaignGroup"": ""Banker RPG"",
+		  ""creditProfile"": ""ABOVEAVERAGE640679"",
+		  ""dateAdded"": ""9/10/2019 5:59 PM"",
+		  ""dayPhone"": ""(555) 523-8259"",
+		  ""email"": ""ngarcia@martinez.net"",
+		  ""eveningPhone"": ""(555) 885-9348"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Kaitlyn"",
+		  ""intendedPropertyUse"": ""INVESTMENT"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Erickson"",
+		  ""loanAmount"": ""898098.00"",
+		  ""loanPurpose"": ""USDAHOMELOAN"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""VERMONT"",
+		  ""propertyType"": ""MANUFACTUREDHOME"",
+		  ""propertyZipCode"": ""45073"",
+		  ""purchasePrice"": ""285696.0021"",
+		  ""LeadProviderName"": ""HTTPSMYPROPAIR-BANK.COMPROPAIR-BANKBANKERINDEXR.WEINBERG"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.6"",
+		  ""FICO"": ""334""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.457575,6
+2019-09-16 15:09:07.457605,10,1125801,09/10/2019 17:59:41,Email,432961,09/10/2019 17:59:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.457605,5
+2019-09-16 15:09:07.457635,10,1125801,09/10/2019 17:59:41,Email,432962,09/10/2019 17:59:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.457635,5
+2019-09-16 15:09:07.457662,10,1125801,09/10/2019 17:59:41,Distribution,255840,09/10/2019 17:59:41,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.457662,4
+2019-09-16 15:09:07.457691,10,1125802,09/11/2019 01:06:17,Status,155627,09/10/2019 18:01:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.457691,7
+2019-09-16 15:09:07.457720,10,1125802,09/11/2019 01:06:17,CreationLog,160815,09/10/2019 18:01:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.457720,
+2019-09-16 15:09:07.457748,10,1125802,09/11/2019 01:06:17,Export,113507,09/10/2019 18:01:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125802"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Wisdom"",
+		  ""campaignGroup"": ""Perks"",
+		  ""creditProfile"": ""GOOD680719"",
+		  ""dateAdded"": ""9/10/2019 6:01 PM"",
+		  ""dayPhone"": ""(555) 386-2552"",
+		  ""email"": ""melissa36@roach-davis.com"",
+		  ""eveningPhone"": ""(555) 873-3074"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Matthew"",
+		  ""intendedPropertyUse"": ""INVESTMENTPROPERTY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Nichols"",
+		  ""loanAmount"": ""993452.002"",
+		  ""loanPurpose"": ""11"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""NC"",
+		  ""propertyType"": ""MANUFACTURED"",
+		  ""propertyZipCode"": ""53733"",
+		  ""purchasePrice"": ""239278.002"",
+		  ""LeadProviderName"": ""HTTPSWWW.MYPROPAIR-BANK.COMAPPLYPURCHASE"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.1"",
+		  ""FICO"": ""517""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.457748,6
+2019-09-16 15:09:07.457776,10,1125802,09/11/2019 01:06:17,Email,432963,09/10/2019 18:01:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.457776,5
+2019-09-16 15:09:07.457805,10,1125802,09/11/2019 01:06:17,Email,432964,09/10/2019 18:01:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.457805,5
+2019-09-16 15:09:07.457833,10,1125802,09/11/2019 01:06:17,Distribution,255841,09/10/2019 18:01:42,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.457833,4
+2019-09-16 15:09:07.457861,10,1125803,09/11/2019 01:06:18,Status,155628,09/10/2019 18:03:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.457861,7
+2019-09-16 15:09:07.457890,10,1125803,09/11/2019 01:06:18,CreationLog,160816,09/10/2019 18:03:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.457890,
+2019-09-16 15:09:07.457917,10,1125803,09/11/2019 01:06:18,Export,113508,09/10/2019 18:03:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125803"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Referral"",
+		  ""campaignGroup"": ""Test Campaign"",
+		  ""creditProfile"": ""513"",
+		  ""dateAdded"": ""9/10/2019 6:03 PM"",
+		  ""dayPhone"": ""(555) 097-8601"",
+		  ""email"": ""ydixon@blair.info"",
+		  ""eveningPhone"": ""(555) 457-6975"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Brittany"",
+		  ""intendedPropertyUse"": ""OCCUPY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Lynch"",
+		  ""loanAmount"": ""895630.00"",
+		  ""loanPurpose"": ""NONE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""AL"",
+		  ""propertyType"": ""CONDOMINIUMTOWNHOME"",
+		  ""propertyZipCode"": ""39180"",
+		  ""purchasePrice"": ""979351.00"",
+		  ""LeadProviderName"": ""FREERATEUPDATE"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""581""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.457917,6
+2019-09-16 15:09:07.457945,10,1125803,09/11/2019 01:06:18,Email,432965,09/10/2019 18:03:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.457945,5
+2019-09-16 15:09:07.457977,10,1125803,09/11/2019 01:06:18,Email,432966,09/10/2019 18:03:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.457977,5
+2019-09-16 15:09:07.458007,10,1125803,09/11/2019 01:06:18,Distribution,255842,09/10/2019 18:03:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458007,4
+2019-09-16 15:09:07.458036,10,1125804,09/11/2019 01:06:18,Status,155629,09/10/2019 18:05:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.458036,7
+2019-09-16 15:09:07.458064,10,1125804,09/11/2019 01:06:18,CreationLog,160817,09/10/2019 18:05:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.458064,
+2019-09-16 15:09:07.458092,10,1125804,09/11/2019 01:06:18,Export,113509,09/10/2019 18:05:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125804"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LowerMyBills"",
+		  ""campaignGroup"": ""Sweeps 2019"",
+		  ""creditProfile"": ""EXCELLENT"",
+		  ""dateAdded"": ""9/10/2019 6:05 PM"",
+		  ""dayPhone"": ""(555) 720-5677"",
+		  ""email"": ""qsanders@gmail.com"",
+		  ""eveningPhone"": ""(555) 124-6454"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Jason"",
+		  ""intendedPropertyUse"": ""SECONDARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Hernandez"",
+		  ""loanAmount"": ""365250.00312"",
+		  ""loanPurpose"": ""EQUITY"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MIMICHIGAN"",
+		  ""propertyType"": ""2FAMILY"",
+		  ""propertyZipCode"": ""43911"",
+		  ""purchasePrice"": ""262152.00132"",
+		  ""LeadProviderName"": ""ENCOMPASS"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.8"",
+		  ""FICO"": ""751""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.458092,6
+2019-09-16 15:09:07.458121,10,1125804,09/11/2019 01:06:18,Email,432968,09/10/2019 18:05:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.458121,5
+2019-09-16 15:09:07.458149,10,1125804,09/11/2019 01:06:18,Email,432967,09/10/2019 18:05:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458149,5
+2019-09-16 15:09:07.458178,10,1125804,09/11/2019 01:06:18,Distribution,255843,09/10/2019 18:05:43,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458178,4
+2019-09-16 15:09:07.458209,10,1125805,09/10/2019 18:07:42,Status,155630,09/10/2019 18:07:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.458209,7
+2019-09-16 15:09:07.458238,10,1125805,09/10/2019 18:07:42,CreationLog,160818,09/10/2019 18:07:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.458238,
+2019-09-16 15:09:07.458267,10,1125805,09/10/2019 18:07:42,Export,113510,09/10/2019 18:07:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125805"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Website"",
+		  ""campaignGroup"": ""Nine Hills Transfers"",
+		  ""creditProfile"": ""GOOD"",
+		  ""dateAdded"": ""9/10/2019 6:07 PM"",
+		  ""dayPhone"": ""(555) 614-2062"",
+		  ""email"": ""jason38@day.com"",
+		  ""eveningPhone"": ""(555) 311-2978"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Cynthia"",
+		  ""intendedPropertyUse"": ""PRIMARYRESIDENCE"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Torres"",
+		  ""loanAmount"": ""6559.002"",
+		  ""loanPurpose"": ""HOMEREFINANCE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""FLFLORIDA"",
+		  ""propertyType"": ""TOWNHOUSE"",
+		  ""propertyZipCode"": ""68923"",
+		  ""purchasePrice"": ""329715.0031"",
+		  ""LeadProviderName"": ""PROPAIR-BANKWEBSITEEMAIL"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.4"",
+		  ""FICO"": ""344""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.458267,6
+2019-09-16 15:09:07.458294,10,1125805,09/10/2019 18:07:42,Email,432969,09/10/2019 18:07:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458294,5
+2019-09-16 15:09:07.458323,10,1125805,09/10/2019 18:07:42,Email,432970,09/10/2019 18:07:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.458323,5
+2019-09-16 15:09:07.458353,10,1125805,09/10/2019 18:07:42,Distribution,255844,09/10/2019 18:07:42,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.458353,4
+2019-09-16 15:09:07.458384,10,1125806,09/10/2019 18:09:42,Status,155631,09/10/2019 18:09:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.458384,7
+2019-09-16 15:09:07.458420,10,1125806,09/10/2019 18:09:42,CreationLog,160819,09/10/2019 18:09:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.458420,
+2019-09-16 15:09:07.458459,10,1125806,09/10/2019 18:09:42,Export,113511,09/10/2019 18:09:40,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125806"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Self Generated"",
+		  ""campaignGroup"": ""Use Branch Specific"",
+		  ""creditProfile"": ""VERYGOOD"",
+		  ""dateAdded"": ""9/10/2019 6:09 PM"",
+		  ""dayPhone"": ""(555) 928-5167"",
+		  ""email"": ""dburgess@jackson.com"",
+		  ""eveningPhone"": ""(555) 839-5385"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Rebecca"",
+		  ""intendedPropertyUse"": ""PRIMARYHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Taylor"",
+		  ""loanAmount"": ""932127.0035"",
+		  ""loanPurpose"": ""LOWERMYINTERESTRATE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""RI"",
+		  ""propertyType"": ""MULTIPLEFAMILYDWELLING"",
+		  ""propertyZipCode"": ""38155"",
+		  ""purchasePrice"": ""234569.00"",
+		  ""LeadProviderName"": ""FREERATEUPDATE"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.4"",
+		  ""FICO"": ""548""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.458459,6
+2019-09-16 15:09:07.458497,10,1125806,09/10/2019 18:09:42,Email,432971,09/10/2019 18:09:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458497,5
+2019-09-16 15:09:07.458533,10,1125806,09/10/2019 18:09:42,Email,432972,09/10/2019 18:09:40,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.458533,5
+2019-09-16 15:09:07.458561,10,1125806,09/10/2019 18:09:42,Distribution,255845,09/10/2019 18:09:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458561,4
+2019-09-16 15:09:07.458590,10,1125807,09/11/2019 01:06:19,Status,155632,09/10/2019 18:11:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.458590,7
+2019-09-16 15:09:07.458617,10,1125807,09/11/2019 01:06:19,CreationLog,160820,09/10/2019 18:11:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.458617,
+2019-09-16 15:09:07.458645,10,1125807,09/11/2019 01:06:19,Export,113512,09/10/2019 18:11:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125807"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LowerMyBills"",
+		  ""campaignGroup"": ""Sweeps 2019"",
+		  ""creditProfile"": ""638"",
+		  ""dateAdded"": ""9/10/2019 6:11 PM"",
+		  ""dayPhone"": ""(555) 879-0085"",
+		  ""email"": ""(Hard Bounce)"",
+		  ""eveningPhone"": ""(555) 378-2195"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Kayla"",
+		  ""intendedPropertyUse"": ""INVESTMENTPROPERTY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Smith"",
+		  ""loanAmount"": ""99354.005"",
+		  ""loanPurpose"": ""2NDMORTGAGE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""NEWHAMPSHIRE"",
+		  ""propertyType"": ""CONDOMINIUMTOWNHOME"",
+		  ""propertyZipCode"": ""66168"",
+		  ""purchasePrice"": ""35281.005"",
+		  ""LeadProviderName"": ""HTTPSMYPROPAIR-BANK.COMFIXEDRATEMORTGAGE"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.3"",
+		  ""FICO"": ""819""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.458645,6
+2019-09-16 15:09:07.458673,10,1125807,09/11/2019 01:06:19,Email,432973,09/10/2019 18:11:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458673,5
+2019-09-16 15:09:07.458701,10,1125807,09/11/2019 01:06:19,Email,432974,09/10/2019 18:11:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.458701,5
+2019-09-16 15:09:07.458734,10,1125807,09/11/2019 01:06:19,Distribution,255846,09/10/2019 18:11:43,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458734,4
+2019-09-16 15:09:07.458769,10,1125808,09/11/2019 01:06:19,Status,155633,09/10/2019 18:13:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.458769,7
+2019-09-16 15:09:07.458797,10,1125808,09/11/2019 01:06:19,CreationLog,160821,09/10/2019 18:13:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.458797,
+2019-09-16 15:09:07.458828,10,1125808,09/11/2019 01:06:19,Export,113513,09/10/2019 18:13:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125808"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Referral"",
+		  ""campaignGroup"": ""Test Campaign"",
+		  ""creditProfile"": ""VERYGOOD"",
+		  ""dateAdded"": ""9/10/2019 6:13 PM"",
+		  ""dayPhone"": ""(555) 986-8619"",
+		  ""email"": ""omurphy@yahoo.com"",
+		  ""eveningPhone"": ""(555) 336-3846"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Elizabeth"",
+		  ""intendedPropertyUse"": ""SECONDHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Booth"",
+		  ""loanAmount"": ""32573.00"",
+		  ""loanPurpose"": ""EQUITY"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""BEDFORDNY"",
+		  ""propertyType"": ""MULTIFAM"",
+		  ""propertyZipCode"": ""63862"",
+		  ""purchasePrice"": ""315382.002"",
+		  ""LeadProviderName"": ""LENDINGTREE"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.2"",
+		  ""FICO"": ""390""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.458828,6
+2019-09-16 15:09:07.458856,10,1125808,09/11/2019 01:06:19,Email,432975,09/10/2019 18:13:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458856,5
+2019-09-16 15:09:07.458883,10,1125808,09/11/2019 01:06:19,Email,432976,09/10/2019 18:13:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.458883,5
+2019-09-16 15:09:07.458910,10,1125808,09/11/2019 01:06:19,Distribution,255847,09/10/2019 18:13:41,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.458910,4
+2019-09-16 15:09:07.458939,10,1125809,09/10/2019 18:15:42,Status,155634,09/10/2019 18:15:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.458939,7
+2019-09-16 15:09:07.458967,10,1125809,09/10/2019 18:15:42,CreationLog,160822,09/10/2019 18:15:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.458967,
+2019-09-16 15:09:07.458994,10,1125809,09/10/2019 18:15:42,Email,432977,09/10/2019 18:15:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.458994,5
+2019-09-16 15:09:07.459021,10,1125809,09/10/2019 18:15:42,Email,432978,09/10/2019 18:15:40,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.459021,5
+2019-09-16 15:09:07.459047,10,1125809,09/10/2019 18:15:42,Distribution,255848,09/10/2019 18:15:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459047,4
+2019-09-16 15:09:07.459075,10,1125810,09/10/2019 18:17:42,Status,155635,09/10/2019 18:17:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.459075,7
+2019-09-16 15:09:07.459104,10,1125810,09/10/2019 18:17:42,CreationLog,160823,09/10/2019 18:17:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.459104,
+2019-09-16 15:09:07.459132,10,1125810,09/10/2019 18:17:42,Export,113514,09/10/2019 18:17:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125810"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Wisdom"",
+		  ""campaignGroup"": ""Perks"",
+		  ""creditProfile"": ""465"",
+		  ""dateAdded"": ""9/10/2019 6:17 PM"",
+		  ""dayPhone"": ""(555) 105-2714"",
+		  ""email"": ""martindevon@hotmail.com"",
+		  ""eveningPhone"": ""(555) 591-2286"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Tracy"",
+		  ""intendedPropertyUse"": ""SECONDHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Hernandez"",
+		  ""loanAmount"": ""880081.00"",
+		  ""loanPurpose"": ""LOWERMYINTERESTRATE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MS"",
+		  ""propertyType"": ""SINGLEFAM"",
+		  ""propertyZipCode"": ""58093"",
+		  ""purchasePrice"": ""347278.00"",
+		  ""LeadProviderName"": ""DOUBLEPOSITIVEUPDATELEADGET"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.3"",
+		  ""FICO"": ""676""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.459132,6
+2019-09-16 15:09:07.459161,10,1125810,09/10/2019 18:17:42,Email,432979,09/10/2019 18:17:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459161,5
+2019-09-16 15:09:07.459189,10,1125810,09/10/2019 18:17:42,Email,432980,09/10/2019 18:17:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.459189,5
+2019-09-16 15:09:07.459217,10,1125810,09/10/2019 18:17:42,Distribution,255849,09/10/2019 18:17:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459217,4
+2019-09-16 15:09:07.459245,10,1125811,09/10/2019 18:19:41,Status,155636,09/10/2019 18:19:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.459245,7
+2019-09-16 15:09:07.459274,10,1125811,09/10/2019 18:19:41,CreationLog,160824,09/10/2019 18:19:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.459274,
+2019-09-16 15:09:07.459301,10,1125811,09/10/2019 18:19:41,Email,432981,09/10/2019 18:19:40,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459301,5
+2019-09-16 15:09:07.459329,10,1125811,09/10/2019 18:19:41,Email,432982,09/10/2019 18:19:40,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.459329,5
+2019-09-16 15:09:07.459356,10,1125811,09/10/2019 18:19:41,Distribution,255850,09/10/2019 18:19:41,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.459356,4
+2019-09-16 15:09:07.459384,10,1125812,09/11/2019 01:06:21,Status,155637,09/10/2019 18:21:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.459384,7
+2019-09-16 15:09:07.459414,10,1125812,09/11/2019 01:06:21,CreationLog,160825,09/10/2019 18:21:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.459414,
+2019-09-16 15:09:07.459441,10,1125812,09/11/2019 01:06:21,Export,113515,09/10/2019 18:21:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125812"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Referral"",
+		  ""campaignGroup"": ""Test Campaign"",
+		  ""creditProfile"": ""BELOWAVERAGE619ANDBELOW"",
+		  ""dateAdded"": ""9/10/2019 6:21 PM"",
+		  ""dayPhone"": ""(555) 646-8710"",
+		  ""email"": ""jeffreyhaynes@black-brown.com"",
+		  ""eveningPhone"": ""(555) 270-4479"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Pamela"",
+		  ""intendedPropertyUse"": ""PRIMARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Jimenez"",
+		  ""loanAmount"": ""184094.00"",
+		  ""loanPurpose"": ""HOMEIMPROVEMENT"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""LAFAYETTEIN"",
+		  ""propertyType"": ""2FAMILY"",
+		  ""propertyZipCode"": ""45408"",
+		  ""purchasePrice"": ""1464.001"",
+		  ""LeadProviderName"": ""HTTPSMYPROPAIR-BANK.COMFINDALOAN"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.4"",
+		  ""FICO"": ""537""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.459441,6
+2019-09-16 15:09:07.459469,10,1125812,09/11/2019 01:06:21,Email,432983,09/10/2019 18:21:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459469,5
+2019-09-16 15:09:07.459496,10,1125812,09/11/2019 01:06:21,Email,432984,09/10/2019 18:21:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.459496,5
+2019-09-16 15:09:07.459523,10,1125812,09/11/2019 01:06:21,Distribution,255851,09/10/2019 18:21:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459523,4
+2019-09-16 15:09:07.459551,10,1125813,09/11/2019 01:06:21,Status,155638,09/10/2019 18:23:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.459551,7
+2019-09-16 15:09:07.459578,10,1125813,09/11/2019 01:06:21,CreationLog,160826,09/10/2019 18:23:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.459578,
+2019-09-16 15:09:07.459609,10,1125813,09/11/2019 01:06:21,Export,113516,09/10/2019 18:23:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125813"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Referral"",
+		  ""campaignGroup"": ""Test Campaign"",
+		  ""creditProfile"": ""604"",
+		  ""dateAdded"": ""9/10/2019 6:23 PM"",
+		  ""dayPhone"": ""(555) 697-5597"",
+		  ""email"": ""kaitlinramirez@harrison-jones.com"",
+		  ""eveningPhone"": ""(555) 525-5204"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Anthony"",
+		  ""intendedPropertyUse"": ""REFINANCE"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Torres"",
+		  ""loanAmount"": ""797935.00"",
+		  ""loanPurpose"": ""VA"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""46180"",
+		  ""propertyType"": ""SINGLEFAMILYRESIDENCE"",
+		  ""propertyZipCode"": ""81663"",
+		  ""purchasePrice"": ""708017.005"",
+		  ""LeadProviderName"": ""ENCOMPASS"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.1"",
+		  ""FICO"": ""715""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.459609,6
+2019-09-16 15:09:07.459637,10,1125813,09/11/2019 01:06:21,Email,432985,09/10/2019 18:23:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459637,5
+2019-09-16 15:09:07.459664,10,1125813,09/11/2019 01:06:21,Email,432986,09/10/2019 18:23:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.459664,5
+2019-09-16 15:09:07.459691,10,1125813,09/11/2019 01:06:21,Distribution,255852,09/10/2019 18:23:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459691,4
+2019-09-16 15:09:07.459718,10,1125814,09/11/2019 01:06:22,Status,155639,09/10/2019 18:25:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.459718,7
+2019-09-16 15:09:07.459746,10,1125814,09/11/2019 01:06:22,CreationLog,160827,09/10/2019 18:25:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.459746,
+2019-09-16 15:09:07.459772,10,1125814,09/11/2019 01:06:22,Export,113517,09/10/2019 18:25:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125814"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Referral"",
+		  ""campaignGroup"": ""Test Campaign"",
+		  ""creditProfile"": ""EXCELLENT760+"",
+		  ""dateAdded"": ""9/10/2019 6:25 PM"",
+		  ""dayPhone"": ""(555) 947-1374"",
+		  ""email"": ""davispamela@gmail.com"",
+		  ""eveningPhone"": ""(555) 419-5613"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Annette"",
+		  ""intendedPropertyUse"": ""INVESTMENTPROPERTY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Thompson"",
+		  ""loanAmount"": ""140708.001"",
+		  ""loanPurpose"": ""HOMEEQUITYLOAN"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""LOUISIANA"",
+		  ""propertyType"": ""CONDOMINIUMTOWNHOME"",
+		  ""propertyZipCode"": ""58853"",
+		  ""purchasePrice"": ""191292.00"",
+		  ""LeadProviderName"": ""HTTPSWWW.MYPROPAIR-BANK.COMPROPAIR-BANKBANKERINDEXJ.SCHAUF"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.4"",
+		  ""FICO"": ""760""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.459772,6
+2019-09-16 15:09:07.459797,10,1125814,09/11/2019 01:06:22,Email,432987,09/10/2019 18:25:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459797,5
+2019-09-16 15:09:07.459821,10,1125814,09/11/2019 01:06:22,Email,432988,09/10/2019 18:25:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.459821,5
+2019-09-16 15:09:07.459846,10,1125814,09/11/2019 01:06:22,Distribution,255853,09/10/2019 18:25:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.459846,4
+2019-09-16 15:09:07.459871,10,1125815,09/10/2019 18:27:42,Status,155640,09/10/2019 18:27:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.459871,7
+2019-09-16 15:09:07.459896,10,1125815,09/10/2019 18:27:42,CreationLog,160828,09/10/2019 18:27:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.459896,
+2019-09-16 15:09:07.459921,10,1125815,09/10/2019 18:27:42,Export,113518,09/10/2019 18:27:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125815"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LendGo"",
+		  ""campaignGroup"": ""Retired"",
+		  ""creditProfile"": ""698"",
+		  ""dateAdded"": ""9/10/2019 6:27 PM"",
+		  ""dayPhone"": ""(555) 298-0055"",
+		  ""email"": ""brownaustin@gmail.com"",
+		  ""eveningPhone"": ""(555) 498-8366"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Kenneth"",
+		  ""intendedPropertyUse"": ""PRIMARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Guerrero"",
+		  ""loanAmount"": ""40086.0051"",
+		  ""loanPurpose"": ""RATETERM"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""KANSAS"",
+		  ""propertyType"": ""MOBILE"",
+		  ""propertyZipCode"": ""55979"",
+		  ""purchasePrice"": ""490942.00"",
+		  ""LeadProviderName"": ""DOUBLEPOSITIVE"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.3"",
+		  ""FICO"": ""450""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.459921,6
+2019-09-16 15:09:07.459946,10,1125815,09/10/2019 18:27:42,Email,432989,09/10/2019 18:27:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.459946,5
+2019-09-16 15:09:07.459973,10,1125815,09/10/2019 18:27:42,Email,432990,09/10/2019 18:27:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.459973,5
+2019-09-16 15:09:07.460000,10,1125815,09/10/2019 18:27:42,Distribution,255854,09/10/2019 18:27:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460000,4
+2019-09-16 15:09:07.460026,10,1125816,09/11/2019 01:06:22,Status,155641,09/10/2019 18:29:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.460026,7
+2019-09-16 15:09:07.460051,10,1125816,09/11/2019 01:06:22,CreationLog,160829,09/10/2019 18:29:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.460051,
+2019-09-16 15:09:07.460078,10,1125816,09/11/2019 01:06:22,Export,113519,09/10/2019 18:29:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125816"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Freerateupdate"",
+		  ""campaignGroup"": ""My PROPAIR Organic"",
+		  ""creditProfile"": ""571"",
+		  ""dateAdded"": ""9/10/2019 6:29 PM"",
+		  ""dayPhone"": ""(555) 075-4354"",
+		  ""email"": ""zsmith@gmail.com"",
+		  ""eveningPhone"": ""(555) 851-1188"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Gabriella"",
+		  ""intendedPropertyUse"": ""SECONDHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Jones"",
+		  ""loanAmount"": ""631599.005"",
+		  ""loanPurpose"": ""CHANGEMYMORTGAGETERM"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""TEXAS"",
+		  ""propertyType"": ""2FAMILY"",
+		  ""propertyZipCode"": ""48911"",
+		  ""purchasePrice"": ""639309.003"",
+		  ""LeadProviderName"": ""ZETA"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.1"",
+		  ""FICO"": ""338""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.460078,6
+2019-09-16 15:09:07.460102,10,1125816,09/11/2019 01:06:22,Email,432992,09/10/2019 18:29:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.460102,5
+2019-09-16 15:09:07.460127,10,1125816,09/11/2019 01:06:22,Email,432991,09/10/2019 18:29:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460127,5
+2019-09-16 15:09:07.460153,10,1125816,09/11/2019 01:06:22,Distribution,255855,09/10/2019 18:29:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460153,4
+2019-09-16 15:09:07.460192,10,1125817,09/11/2019 01:06:23,Status,155642,09/10/2019 18:31:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.460192,7
+2019-09-16 15:09:07.460217,10,1125817,09/11/2019 01:06:23,CreationLog,160830,09/10/2019 18:31:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.460217,
+2019-09-16 15:09:07.460242,10,1125817,09/11/2019 01:06:23,Export,113520,09/10/2019 18:31:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125817"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LowerMyBills"",
+		  ""campaignGroup"": ""Sweeps 2019"",
+		  ""creditProfile"": ""AVERAGE"",
+		  ""dateAdded"": ""9/10/2019 6:31 PM"",
+		  ""dayPhone"": ""(555) 142-5032"",
+		  ""email"": ""melissa77@hotmail.com"",
+		  ""eveningPhone"": ""(555) 964-6278"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Jill"",
+		  ""intendedPropertyUse"": ""PRIMARYHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Singleton"",
+		  ""loanAmount"": ""133468.00"",
+		  ""loanPurpose"": ""TOWNHOME"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""SCSOUTHCAROLINA"",
+		  ""propertyType"": ""ATTACHED"",
+		  ""propertyZipCode"": ""74612"",
+		  ""purchasePrice"": ""840458.00"",
+		  ""LeadProviderName"": ""BILLS.COM"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.2"",
+		  ""FICO"": ""674""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.460242,6
+2019-09-16 15:09:07.460266,10,1125817,09/11/2019 01:06:23,Email,432993,09/10/2019 18:31:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460266,5
+2019-09-16 15:09:07.460291,10,1125817,09/11/2019 01:06:23,Email,432994,09/10/2019 18:31:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.460291,5
+2019-09-16 15:09:07.460316,10,1125817,09/11/2019 01:06:23,Distribution,255856,09/10/2019 18:31:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.460316,4
+2019-09-16 15:09:07.460343,10,1125818,09/11/2019 01:06:23,Status,155643,09/10/2019 18:33:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.460343,7
+2019-09-16 15:09:07.460369,10,1125818,09/11/2019 01:06:23,CreationLog,160831,09/10/2019 18:33:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.460369,
+2019-09-16 15:09:07.460395,10,1125818,09/11/2019 01:06:23,Export,113521,09/10/2019 18:33:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125818"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Zeta"",
+		  ""campaignGroup"": ""Banker RPG"",
+		  ""creditProfile"": ""EXCELLENT"",
+		  ""dateAdded"": ""9/10/2019 6:33 PM"",
+		  ""dayPhone"": ""(555) 779-5594"",
+		  ""email"": ""hornemary@russell.com"",
+		  ""eveningPhone"": ""(555) 929-0197"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Michael"",
+		  ""intendedPropertyUse"": ""REFINANCE"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Davis"",
+		  ""loanAmount"": ""708849.00"",
+		  ""loanPurpose"": ""2NDMORTGAGE"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MA"",
+		  ""propertyType"": ""ALBURQUERQUE"",
+		  ""propertyZipCode"": ""37213"",
+		  ""purchasePrice"": ""369399.00532"",
+		  ""LeadProviderName"": ""ANAMOLYSQUARED"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.5"",
+		  ""FICO"": ""514""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.460395,6
+2019-09-16 15:09:07.460420,10,1125818,09/11/2019 01:06:23,Email,432995,09/10/2019 18:33:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460420,5
+2019-09-16 15:09:07.460444,10,1125818,09/11/2019 01:06:23,Email,432996,09/10/2019 18:33:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.460444,5
+2019-09-16 15:09:07.460468,10,1125818,09/11/2019 01:06:23,Distribution,255857,09/10/2019 18:33:41,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460468,4
+2019-09-16 15:09:07.460494,10,1125819,09/11/2019 01:06:24,Status,155644,09/10/2019 18:35:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.460494,7
+2019-09-16 15:09:07.460519,10,1125819,09/11/2019 01:06:24,CreationLog,160832,09/10/2019 18:35:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.460519,
+2019-09-16 15:09:07.460544,10,1125819,09/11/2019 01:06:24,Export,113522,09/10/2019 18:35:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125819"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LowerMyBills"",
+		  ""campaignGroup"": ""Sweeps 2019"",
+		  ""creditProfile"": ""POOR"",
+		  ""dateAdded"": ""9/10/2019 6:35 PM"",
+		  ""dayPhone"": ""(555) 023-2743"",
+		  ""email"": ""courtneyrivera@campbell-lopez.org"",
+		  ""eveningPhone"": ""(555) 186-3585"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Donald"",
+		  ""intendedPropertyUse"": ""INVESTOR"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Stevens"",
+		  ""loanAmount"": ""854736.00"",
+		  ""loanPurpose"": ""50"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""FL33194"",
+		  ""propertyType"": ""MODULARHOME"",
+		  ""propertyZipCode"": ""53482"",
+		  ""purchasePrice"": ""846926.00"",
+		  ""LeadProviderName"": ""ANAMOLYSQUARED"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""424""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.460544,6
+2019-09-16 15:09:07.460570,10,1125819,09/11/2019 01:06:24,Email,432997,09/10/2019 18:35:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460570,5
+2019-09-16 15:09:07.460595,10,1125819,09/11/2019 01:06:24,Email,432998,09/10/2019 18:35:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.460595,5
+2019-09-16 15:09:07.460619,10,1125819,09/11/2019 01:06:24,Distribution,255858,09/10/2019 18:35:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460619,4
+2019-09-16 15:09:07.460645,10,1125820,09/10/2019 18:37:43,Status,155645,09/10/2019 18:37:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.460645,7
+2019-09-16 15:09:07.460670,10,1125820,09/10/2019 18:37:43,CreationLog,160833,09/10/2019 18:37:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.460670,
+2019-09-16 15:09:07.460697,10,1125820,09/10/2019 18:37:43,Export,113523,09/10/2019 18:37:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125820"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Zeta"",
+		  ""campaignGroup"": ""Banker RPG"",
+		  ""creditProfile"": ""620679"",
+		  ""dateAdded"": ""9/10/2019 6:37 PM"",
+		  ""dayPhone"": ""(555) 544-3193"",
+		  ""email"": ""melissamoore@gmail.com"",
+		  ""eveningPhone"": ""(555) 452-6107"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Heather"",
+		  ""intendedPropertyUse"": ""PRIMARYHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Johnson"",
+		  ""loanAmount"": ""647136.00"",
+		  ""loanPurpose"": ""REFINANCING"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""46180"",
+		  ""propertyType"": ""MANUFACTUREDHOMECONDOPUDCOOP"",
+		  ""propertyZipCode"": ""80685"",
+		  ""purchasePrice"": ""584952.00"",
+		  ""LeadProviderName"": ""FREERATEUPDATE"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.5"",
+		  ""FICO"": ""485""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.460697,6
+2019-09-16 15:09:07.460724,10,1125820,09/10/2019 18:37:43,Email,432999,09/10/2019 18:37:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460724,5
+2019-09-16 15:09:07.460750,10,1125820,09/10/2019 18:37:43,Email,433000,09/10/2019 18:37:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.460750,5
+2019-09-16 15:09:07.460774,10,1125820,09/10/2019 18:37:43,Distribution,255859,09/10/2019 18:37:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.460774,4
+2019-09-16 15:09:07.460799,10,1125821,09/10/2019 18:39:41,Status,155646,09/10/2019 18:39:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.460799,7
+2019-09-16 15:09:07.460828,10,1125821,09/10/2019 18:39:41,CreationLog,160834,09/10/2019 18:39:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.460828,
+2019-09-16 15:09:07.460853,10,1125821,09/10/2019 18:39:41,Export,113524,09/10/2019 18:39:40,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125821"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""BestRateReferrals"",
+		  ""campaignGroup"": ""PROPAIR 3rd Party"",
+		  ""creditProfile"": ""GOOD"",
+		  ""dateAdded"": ""9/10/2019 6:39 PM"",
+		  ""dayPhone"": ""(555) 688-8514"",
+		  ""email"": ""william98@zuniga.com"",
+		  ""eveningPhone"": ""(555) 302-6795"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Maria"",
+		  ""intendedPropertyUse"": ""PRIMARYRESIDENCE"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Wright"",
+		  ""loanAmount"": ""732056.001"",
+		  ""loanPurpose"": ""PUR"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""LA"",
+		  ""propertyType"": ""TOWNHOUSE"",
+		  ""propertyZipCode"": ""37143"",
+		  ""purchasePrice"": ""478687.00"",
+		  ""LeadProviderName"": ""EMPLOYEELOANPROGRAM"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""673""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.460853,6
+2019-09-16 15:09:07.460878,10,1125821,09/10/2019 18:39:41,Email,433002,09/10/2019 18:39:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.460878,5
+2019-09-16 15:09:07.460903,10,1125821,09/10/2019 18:39:41,Email,433001,09/10/2019 18:39:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460903,5
+2019-09-16 15:09:07.460936,10,1125821,09/10/2019 18:39:41,Distribution,255860,09/10/2019 18:39:41,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.460936,4
+2019-09-16 15:09:07.460962,10,1125822,09/11/2019 01:06:24,Status,155647,09/10/2019 18:41:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.460962,7
+2019-09-16 15:09:07.460987,10,1125822,09/11/2019 01:06:24,CreationLog,160835,09/10/2019 18:41:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.460987,
+2019-09-16 15:09:07.461012,10,1125822,09/11/2019 01:06:24,Export,113525,09/10/2019 18:41:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125822"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LendingTree"",
+		  ""campaignGroup"": ""Self Generated"",
+		  ""creditProfile"": ""GOOD"",
+		  ""dateAdded"": ""9/10/2019 6:41 PM"",
+		  ""dayPhone"": ""(555) 133-6361"",
+		  ""email"": ""ojones@gmail.com"",
+		  ""eveningPhone"": ""(555) 192-9109"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Christopher"",
+		  ""intendedPropertyUse"": ""SECONDARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""West"",
+		  ""loanAmount"": ""224124.00"",
+		  ""loanPurpose"": ""LOANMODIFICATION"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MILILANI"",
+		  ""propertyType"": ""TOWNHOUSE"",
+		  ""propertyZipCode"": ""36236"",
+		  ""purchasePrice"": ""666209.00"",
+		  ""LeadProviderName"": ""PERSONALREFERRAL"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.5"",
+		  ""FICO"": ""520""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.461012,6
+2019-09-16 15:09:07.461037,10,1125822,09/11/2019 01:06:24,Email,433004,09/10/2019 18:41:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.461037,5
+2019-09-16 15:09:07.461064,10,1125822,09/11/2019 01:06:24,Email,433003,09/10/2019 18:41:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461064,5
+2019-09-16 15:09:07.461089,10,1125822,09/11/2019 01:06:24,Distribution,255861,09/10/2019 18:41:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461089,4
+2019-09-16 15:09:07.461114,10,1125823,09/11/2019 01:06:25,Status,155648,09/10/2019 18:43:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.461114,7
+2019-09-16 15:09:07.461139,10,1125823,09/11/2019 01:06:25,CreationLog,160836,09/10/2019 18:43:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.461139,
+2019-09-16 15:09:07.461164,10,1125823,09/11/2019 01:06:25,Export,113526,09/10/2019 18:43:42,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125823"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Zeta"",
+		  ""campaignGroup"": ""Banker RPG"",
+		  ""creditProfile"": ""464"",
+		  ""dateAdded"": ""9/10/2019 6:43 PM"",
+		  ""dayPhone"": ""(555) 661-1506"",
+		  ""email"": ""thompsonnicole@olson.com"",
+		  ""eveningPhone"": ""(555) 016-1310"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Joshua"",
+		  ""intendedPropertyUse"": ""PRIMARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Bender"",
+		  ""loanAmount"": ""281934.001"",
+		  ""loanPurpose"": ""RENT"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""NANORTHCAROLINA"",
+		  ""propertyType"": ""CONDO"",
+		  ""propertyZipCode"": ""43236"",
+		  ""purchasePrice"": ""357743.00"",
+		  ""LeadProviderName"": ""LEADPOINT"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""354""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.461164,6
+2019-09-16 15:09:07.461190,10,1125823,09/11/2019 01:06:25,Email,433006,09/10/2019 18:43:42,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.461190,5
+2019-09-16 15:09:07.461215,10,1125823,09/11/2019 01:06:25,Email,433005,09/10/2019 18:43:42,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461215,5
+2019-09-16 15:09:07.461240,10,1125823,09/11/2019 01:06:25,Distribution,255862,09/10/2019 18:43:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.461240,4
+2019-09-16 15:09:07.461265,10,1125824,09/11/2019 01:06:25,Status,155649,09/10/2019 18:45:41,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.461265,7
+2019-09-16 15:09:07.461290,10,1125824,09/11/2019 01:06:25,CreationLog,160837,09/10/2019 18:45:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.461290,
+2019-09-16 15:09:07.461315,10,1125824,09/11/2019 01:06:25,Export,113527,09/10/2019 18:45:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125824"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Freerateupdate"",
+		  ""campaignGroup"": ""My PROPAIR Organic"",
+		  ""creditProfile"": ""684"",
+		  ""dateAdded"": ""9/10/2019 6:45 PM"",
+		  ""dayPhone"": ""(555) 438-2769"",
+		  ""email"": ""amanda79@yahoo.com"",
+		  ""eveningPhone"": ""(555) 963-6582"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Katherine"",
+		  ""intendedPropertyUse"": ""PRIMARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Garcia"",
+		  ""loanAmount"": ""453494.00"",
+		  ""loanPurpose"": ""2"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MA"",
+		  ""propertyType"": ""UNKNOWN"",
+		  ""propertyZipCode"": ""39907"",
+		  ""purchasePrice"": ""448253.00"",
+		  ""LeadProviderName"": ""TONYGATLIFF"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""526""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.461315,6
+2019-09-16 15:09:07.461340,10,1125824,09/11/2019 01:06:25,Email,433008,09/10/2019 18:45:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.461340,5
+2019-09-16 15:09:07.461365,10,1125824,09/11/2019 01:06:25,Email,433007,09/10/2019 18:45:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461365,5
+2019-09-16 15:09:07.461390,10,1125824,09/11/2019 01:06:25,Distribution,255863,09/10/2019 18:45:41,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461390,4
+2019-09-16 15:09:07.461417,10,1125825,09/10/2019 18:47:42,Status,155650,09/10/2019 18:47:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.461417,7
+2019-09-16 15:09:07.461443,10,1125825,09/10/2019 18:47:42,CreationLog,160838,09/10/2019 18:47:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.461443,
+2019-09-16 15:09:07.461467,10,1125825,09/10/2019 18:47:42,Export,113528,09/10/2019 18:47:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125825"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Self Generated"",
+		  ""campaignGroup"": ""Use Branch Specific"",
+		  ""creditProfile"": ""606"",
+		  ""dateAdded"": ""9/10/2019 6:47 PM"",
+		  ""dayPhone"": ""(555) 144-0273"",
+		  ""email"": ""andreayoung@tran-martinez.net"",
+		  ""eveningPhone"": ""(555) 203-5685"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Marie"",
+		  ""intendedPropertyUse"": ""SECONDHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Jordan"",
+		  ""loanAmount"": ""821399.0023"",
+		  ""loanPurpose"": ""DEBTCONSOLIDATION"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""SAINTJOHNSMI488"",
+		  ""propertyType"": ""ATTACHED"",
+		  ""propertyZipCode"": ""55310"",
+		  ""purchasePrice"": ""619738.00"",
+		  ""LeadProviderName"": ""ENCOMPASS"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""452""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.461467,6
+2019-09-16 15:09:07.461492,10,1125825,09/10/2019 18:47:42,Email,433009,09/10/2019 18:47:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461492,5
+2019-09-16 15:09:07.461518,10,1125825,09/10/2019 18:47:42,Email,433010,09/10/2019 18:47:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.461518,5
+2019-09-16 15:09:07.461543,10,1125825,09/10/2019 18:47:42,Distribution,255864,09/10/2019 18:47:42,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461543,4
+2019-09-16 15:09:07.461568,10,1125826,09/10/2019 18:49:43,Status,155651,09/10/2019 18:49:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.461568,7
+2019-09-16 15:09:07.461593,10,1125826,09/10/2019 18:49:43,CreationLog,160839,09/10/2019 18:49:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.461593,
+2019-09-16 15:09:07.461620,10,1125826,09/10/2019 18:49:43,Export,113529,09/10/2019 18:49:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125826"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Referral"",
+		  ""campaignGroup"": ""Test Campaign"",
+		  ""creditProfile"": ""562"",
+		  ""dateAdded"": ""9/10/2019 6:49 PM"",
+		  ""dayPhone"": ""(555) 973-3413"",
+		  ""email"": ""(Hard Bounce)"",
+		  ""eveningPhone"": ""(555) 965-1059"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Vincent"",
+		  ""intendedPropertyUse"": ""18318ARBORCRESTDR"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Frey"",
+		  ""loanAmount"": ""357023.00"",
+		  ""loanPurpose"": ""HOMEIMPROVEMENT"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""WV"",
+		  ""propertyType"": ""MOBILEMANUFACTUREDHOME"",
+		  ""propertyZipCode"": ""80814"",
+		  ""purchasePrice"": ""553650.00"",
+		  ""LeadProviderName"": ""GETSMART"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.7"",
+		  ""FICO"": ""698""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.461620,6
+2019-09-16 15:09:07.461645,10,1125826,09/10/2019 18:49:43,Email,433012,09/10/2019 18:49:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.461645,5
+2019-09-16 15:09:07.461670,10,1125826,09/10/2019 18:49:43,Email,433011,09/10/2019 18:49:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461670,5
+2019-09-16 15:09:07.461695,10,1125826,09/10/2019 18:49:43,Distribution,255865,09/10/2019 18:49:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.461695,4
+2019-09-16 15:09:07.461719,10,1125827,09/11/2019 01:06:26,Status,155652,09/10/2019 18:51:45,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.461719,7
+2019-09-16 15:09:07.461744,10,1125827,09/11/2019 01:06:26,CreationLog,160840,09/10/2019 18:51:41,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.461744,
+2019-09-16 15:09:07.461772,10,1125827,09/11/2019 01:06:26,Export,113530,09/10/2019 18:51:45,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125827"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""LendGo"",
+		  ""campaignGroup"": ""Retired"",
+		  ""creditProfile"": ""EXCELLENT"",
+		  ""dateAdded"": ""9/10/2019 6:51 PM"",
+		  ""dayPhone"": ""(555) 193-3752"",
+		  ""email"": ""imorgan@strickland.com"",
+		  ""eveningPhone"": ""(555) 560-9750"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Kevin"",
+		  ""intendedPropertyUse"": ""PRIMARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Harris"",
+		  ""loanAmount"": ""262152.001"",
+		  ""loanPurpose"": ""HOMEIMPROVEMENT"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MDMARYLAND"",
+		  ""propertyType"": ""2FAMILY"",
+		  ""propertyZipCode"": ""66525"",
+		  ""purchasePrice"": ""134206.00"",
+		  ""LeadProviderName"": ""REFERAL"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.1"",
+		  ""FICO"": ""439""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.461772,6
+2019-09-16 15:09:07.461796,10,1125827,09/11/2019 01:06:26,Email,433013,09/10/2019 18:51:45,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461796,5
+2019-09-16 15:09:07.461823,10,1125827,09/11/2019 01:06:26,Email,433014,09/10/2019 18:51:45,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.461823,5
+2019-09-16 15:09:07.461848,10,1125827,09/11/2019 01:06:26,Distribution,255866,09/10/2019 18:51:45,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461848,4
+2019-09-16 15:09:07.461873,10,1125828,09/10/2019 18:53:42,Status,155653,09/10/2019 18:53:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.461873,7
+2019-09-16 15:09:07.461898,10,1125828,09/10/2019 18:53:42,CreationLog,160841,09/10/2019 18:53:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.461898,
+2019-09-16 15:09:07.461924,10,1125828,09/10/2019 18:53:42,Export,113531,09/10/2019 18:53:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125828"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Freerateupdate"",
+		  ""campaignGroup"": ""My PROPAIR Organic"",
+		  ""creditProfile"": ""FAIR"",
+		  ""dateAdded"": ""9/10/2019 6:53 PM"",
+		  ""dayPhone"": ""(555) 612-5198"",
+		  ""email"": ""alyssa35@wallace.com"",
+		  ""eveningPhone"": ""(555) 871-6822"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Emily"",
+		  ""intendedPropertyUse"": ""PRIMARYHOME"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Greer"",
+		  ""loanAmount"": ""608868.00"",
+		  ""loanPurpose"": ""HOME"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""SOUTHCAROLINA"",
+		  ""propertyType"": ""HIGHRISECONDOMINIUM"",
+		  ""propertyZipCode"": ""75574"",
+		  ""purchasePrice"": ""165980.002"",
+		  ""LeadProviderName"": ""CORPPERKS"",
+		  ""IsMilitary"": ""No"",
+		  ""CIS"": ""0.9"",
+		  ""FICO"": ""479""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.461924,6
+2019-09-16 15:09:07.461948,10,1125828,09/10/2019 18:53:42,Email,433016,09/10/2019 18:53:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.461948,5
+2019-09-16 15:09:07.461973,10,1125828,09/10/2019 18:53:42,Email,433015,09/10/2019 18:53:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.461973,5
+2019-09-16 15:09:07.461998,10,1125828,09/10/2019 18:53:42,Distribution,255867,09/10/2019 18:53:42,38,New Lead Distribution,,,,11404,test2@propair.ai,"ProPair, Rocks",,,,2019-09-16 15:09:07.461998,4
+2019-09-16 15:09:07.462023,10,1125829,09/11/2019 01:06:27,Status,155654,09/10/2019 18:55:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.462023,7
+2019-09-16 15:09:07.462048,10,1125829,09/11/2019 01:06:27,CreationLog,160842,09/10/2019 18:55:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.462048,
+2019-09-16 15:09:07.462073,10,1125829,09/11/2019 01:06:27,Export,113532,09/10/2019 18:55:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125829"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Referral"",
+		  ""campaignGroup"": ""Test Campaign"",
+		  ""creditProfile"": ""477"",
+		  ""dateAdded"": ""9/10/2019 6:55 PM"",
+		  ""dayPhone"": ""(555) 369-7375"",
+		  ""email"": ""megan50@smith.biz"",
+		  ""eveningPhone"": ""(555) 404-4040"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Lisa"",
+		  ""intendedPropertyUse"": ""PRIMARY"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Miles"",
+		  ""loanAmount"": ""975447.001"",
+		  ""loanPurpose"": ""BARRYCOOPER145@GMAIL.COM"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""MS"",
+		  ""propertyType"": ""MOBILEMANUFACTUREDHOME"",
+		  ""propertyZipCode"": ""42084"",
+		  ""purchasePrice"": ""563374.00"",
+		  ""LeadProviderName"": ""TWILIO"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.8"",
+		  ""FICO"": ""785""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.462073,6
+2019-09-16 15:09:07.462098,10,1125829,09/11/2019 01:06:27,Email,433018,09/10/2019 18:55:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.462098,5
+2019-09-16 15:09:07.462125,10,1125829,09/11/2019 01:06:27,Email,433017,09/10/2019 18:55:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.462125,5
+2019-09-16 15:09:07.462151,10,1125829,09/11/2019 01:06:27,Distribution,255868,09/10/2019 18:55:43,38,New Lead Distribution,,,,11402,test4@pro-pair.com,"GottaHaveThose, Recommendations",,,,2019-09-16 15:09:07.462151,4
+2019-09-16 15:09:07.462176,10,1125830,09/11/2019 01:06:27,Status,155655,09/10/2019 18:57:43,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.462176,7
+2019-09-16 15:09:07.462201,10,1125830,09/11/2019 01:06:27,CreationLog,160843,09/10/2019 18:57:39,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.462201,
+2019-09-16 15:09:07.462226,10,1125830,09/11/2019 01:06:27,Export,113533,09/10/2019 18:57:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125830"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Self Generated"",
+		  ""campaignGroup"": ""Use Branch Specific"",
+		  ""creditProfile"": ""713"",
+		  ""dateAdded"": ""9/10/2019 6:57 PM"",
+		  ""dayPhone"": ""(555) 506-1310"",
+		  ""email"": ""peter52@wilson-manning.com"",
+		  ""eveningPhone"": ""(555) 285-4324"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Christopher"",
+		  ""intendedPropertyUse"": ""SECONDARYVACTN"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Dalton"",
+		  ""loanAmount"": ""904516.001"",
+		  ""loanPurpose"": ""L"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""NEVADA"",
+		  ""propertyType"": ""MULTIFAMILYHOME"",
+		  ""propertyZipCode"": ""77095"",
+		  ""purchasePrice"": ""896728.00"",
+		  ""LeadProviderName"": ""TWILIO"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.8"",
+		  ""FICO"": ""549""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.462226,6
+2019-09-16 15:09:07.462250,10,1125830,09/11/2019 01:06:27,Email,433020,09/10/2019 18:57:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.462250,5
+2019-09-16 15:09:07.462275,10,1125830,09/11/2019 01:06:27,Email,433019,09/10/2019 18:57:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.462275,5
+2019-09-16 15:09:07.462301,10,1125830,09/11/2019 01:06:27,Distribution,255869,09/10/2019 18:57:43,38,New Lead Distribution,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.462301,4
+2019-09-16 15:09:07.462326,10,1125831,09/11/2019 01:06:27,Status,155656,09/10/2019 18:59:42,2,Contact Attempt 1,,,,-100,velocify.system.user@securesend.org,"System, Velocify",,,,2019-09-16 15:09:07.462326,7
+2019-09-16 15:09:07.462351,10,1125831,09/11/2019 01:06:27,CreationLog,160844,09/10/2019 18:59:40,-50,,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,-1,2019-09-16 15:09:07.462351,
+2019-09-16 15:09:07.462376,10,1125831,09/11/2019 01:06:27,Export,113534,09/10/2019 18:59:41,-50,Failure,,,"https://nijt588ad1.execute-api.us-west-1.amazonaws.com/Stage/leads:{
+	""lead"": {
+		""payload"": {
+			""id"": ""1125831"",
+		  ""actionCount"": ""0"",
+		  ""campaign"": ""Lendilio"",
+		  ""campaignGroup"": ""SE 3rd Party"",
+		  ""creditProfile"": ""EXCELLENT"",
+		  ""dateAdded"": ""9/10/2019 6:59 PM"",
+		  ""dayPhone"": ""(555) 562-0846"",
+		  ""email"": ""christopher42@gmail.com"",
+		  ""eveningPhone"": ""(555) 076-0674"",
+		  ""existingHomeValue"": ""1"",
+		  ""firstName"": ""Johnny"",
+		  ""intendedPropertyUse"": ""INVESTMENT"",
+		  ""lastDuplicate"": """",
+		  ""lastName"": ""Lopez"",
+		  ""loanAmount"": ""145902.0051"",
+		  ""loanPurpose"": ""50"",
+		  ""propertyAddress"": ""na"",
+		  ""propertyState"": ""FL33194"",
+		  ""propertyType"": ""SINGLE"",
+		  ""propertyZipCode"": ""47790"",
+		  ""purchasePrice"": ""401688.00"",
+		  ""LeadProviderName"": ""LENDINGTREE"",
+		  ""IsMilitary"": ""Yes"",
+		  ""CIS"": ""0.1"",
+		  ""FICO"": ""777""
+		}
+	}
+}",-100,,"System, Velocify",,,,2019-09-16 15:09:07.462376,6
+2019-09-16 15:09:07.462401,10,1125831,09/11/2019 01:06:27,Email,433021,09/10/2019 18:59:41,117,Newly Assigned Lead Notification,,,,1,velocifysandbox@pro-pair.com,"Ewing, Ethan",20,Main,,2019-09-16 15:09:07.462401,5
+2019-09-16 15:09:07.462428,10,1125831,09/11/2019 01:06:27,Email,433022,09/10/2019 18:59:41,119,Introduction Email: Generic,,,,-100,,"System, Email",,,,2019-09-16 15:09:07.462428,5
+2019-09-16 15:09:07.462454,10,1125831,09/11/2019 01:06:27,Distribution,255870,09/10/2019 18:59:42,38,New Lead Distribution,,,,11403,test3@propair.ai,"Johnson, Devon",,,,2019-09-16 15:09:07.462454,4

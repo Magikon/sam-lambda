@@ -1,0 +1,35 @@
+{
+  "name": "create",
+  "version": "1.0.0",
+  "main": "create.js",
+  "dependencies": {
+    "aws-sdk": "^2.504.0",
+    "axios": "^0.19.2",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "node-redshift": "^0.1.5",
+    "pg": "^7.4.3",
+    "pg-pool": "^2.0.3",
+    "pixl-xml": "^1.0.13",
+    "redis": "^3.0.2",
+    "request": "^2.86.0",
+    "request-promise": "^4.2.2",
+    "rollbar": "^2.4.1",
+    "soap": "^0.26.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest --coverage --coverageDirectory=.coverageReport",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
+  },
+  "jest": {
+    "testRegex": "_test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

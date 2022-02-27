@@ -1,0 +1,124 @@
+  Role:
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action:
+              - 'sts:AssumeRole'
+            Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+                - edgelambda.amazonaws.com
+                - sns.amazonaws.com
+                - rekognition.amazonaws.com
+        Version: '2012-10-17'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/AWSLambdaFullAccess'
+        - 'arn:aws:iam::aws:policy/AmazonS3FullAccess'
+        - 'arn:aws:iam::aws:policy/CloudWatchLogsFullAccess'
+        - 'arn:aws:iam::aws:policy/AWSLambdaExecute'
+        - 'arn:aws:iam::aws:policy/AmazonRekognitionFullAccess'
+        - 'arn:aws:iam::aws:policy/AmazonSNSFullAccess'
+        - 'arn:aws:iam::aws:policy/ComprehendFullAccess'
+        - 'arn:aws:iam::aws:policy/service-role/AWSLambdaVPCAccessExecutionRole'
+        - 'arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole'
+        - 'arn:aws:iam::aws:policy/service-role/AWSLambdaRole'
+      Policies:
+        - PolicyDocument:
+            Statement:
+              - Action:
+                  - 'secretsmanager:GetSecretValue'
+                Effect: Allow
+                Resource: '*'
+            Version: '2012-10-17'
+          PolicyName: AWSGetSecretsRole
+        - PolicyDocument:
+            Statement:
+              - Action:
+                  - 'logs:CreateLogStream'
+                  - 'logs:PutLogEvents'
+                  - 'logs:CreateLogGroup'
+                  - 'sns:Publish'
+                Effect: Allow
+                Resource: '*'
+            Version: '2012-10-17'
+          PolicyName: AWSLambdaEdgeExecutionRole
+        - PolicyDocument:
+            Statement:
+              - Action:
+                  - 'comprehend:BatchDetectDominantLanguage'
+                  - 'comprehend:BatchDetectSentiment'
+                Effect: Allow
+                Resource: '*'
+            Version: '2012-10-17'
+          PolicyName: ComprehendExecutionRole
+        - PolicyDocument:
+            Statement:
+              - Action:
+                  - "athena:*"
+                  - "glue:CreateDatabase"
+                  - "glue:DeleteDatabase"
+                  - "glue:GetDatabase"
+                  - "glue:GetDatabases"
+                  - "glue:UpdateDatabase"
+                  - "glue:CreateTable"
+                  - "glue:DeleteTable"
+                  - "glue:BatchDeleteTable"
+                  - "glue:UpdateTable"
+                  - "glue:GetTable"
+                  - "glue:GetTables"
+                  - "glue:BatchCreatePartition"
+                  - "glue:CreatePartition"
+                  - "glue:DeletePartition"
+                  - "glue:BatchDeletePartition"
+                  - "glue:UpdatePartition"
+                  - "glue:GetPartition"
+                  - "glue:GetPartitions"
+                  - "glue:BatchGetPartition"
+                Effect: Allow
+                Resource: '*'
+            Version: '2012-10-17'
+          PolicyName: AWSAthenaRole
+        - PolicyDocument:
+            Statement:
+              - Action:
+                  - "ses:GetIdentityVerificationAttributes"
+                  - "ses:SendEmail"
+                  - "ses:VerifyEmailIdentity"
+                Effect: Allow
+                Resource: '*'
+            Version: '2012-10-17'
+          PolicyName: SESRole
+        - PolicyDocument:
+            Statement:
+              - Action:
+                  - 'ssm:GetParameter*'
+                Effect: Allow
+                Resource: '*'
+            Version: '2012-10-17'
+          PolicyName: AWSSystemsManagerParameterStorePolicy
+        - PolicyDocument:
+            Statement:
+              - Action:
+                  - 'workdocs:*'
+                Effect: Allow
+                Resource: '*'
+            Version: '2012-10-17'
+          PolicyName: AWSWorkDocsPolicy
+        - PolicyDocument:
+            Statement:
+              - Action:
+                  - "ec2:DescribeInstances"
+                  - "ec2:CreateNetworkInterface"
+                  - "ec2:AttachNetworkInterface"
+                  - "ec2:DescribeNetworkInterfaces"
+                  - "ec2:DeleteNetworkInterface"
+                  - "ec2:DetachNetworkInterface"
+                  - "ec2:ModifyNetworkInterfaceAttribute"
+                  - "ec2:ResetNetworkInterfaceAttribute"
+                  - "autoscaling:CompleteLifecycleAction"
+                Effect: Allow
+                Resource: '*'
+            Version: '2012-10-17'
+          PolicyName: AWSEC2Policies
+    Type: 'AWS::IAM::Role'

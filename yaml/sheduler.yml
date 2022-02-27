@@ -1,0 +1,506 @@
+  ScheduledUpdateCampaignsRule:
+    Properties:
+      Description: ScheduledUpdateCampaignsRule
+      ScheduleExpression: cron(0 4 * * ? *)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - UpdateCampaigns
+              - Arn
+          Id: UpdateCampaignsV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+  PermissionForScheduledUpdateCampaignsRule:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: UpdateCampaigns
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledUpdateCampaignsRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledUpdateLookupsForCampaignsRule:
+    Properties:
+      Description: ScheduledUpdateLookupsForCampaignsRule
+      ScheduleExpression: cron(0 3 * * ? *)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - UpdateLookupsForCampaigns
+              - Arn
+          Id: UpdateLookupsForCampaignsV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForScheduledUpdateLookupsForCampaignsRuleRule:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: UpdateLookupsForCampaigns
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledUpdateLookupsForCampaignsRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledUpdateStagingLookupsFiles:
+    Properties:
+      Description: ScheduledUpdateStagingLookupsFiles
+      ScheduleExpression: cron(30 2 * * ? *)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - UpdateStagingLookupsFiles
+              - Arn
+          Id: UpdateStagingLookupsFilesV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsStagingAndNotSandbox
+
+  PermissionForScheduledUpdateStagingLookupsFilesRule:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: UpdateStagingLookupsFiles
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledUpdateStagingLookupsFiles
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsStagingAndNotSandbox
+  ScheduledCreateRule:
+    Properties:
+      Description: ScheduledCreateRule
+      ScheduleExpression: rate(3 minutes)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - CreateLead
+              - Arn
+          Id: CreateLeadV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeCreateFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: CreateLead
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledCreateRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+
+  RepostLeadsSchedulerRule:
+      Properties:
+        Description: RepostLeadsSchedulerRule
+        ScheduleExpression: cron(0 8 * * ? *)
+        State: ENABLED
+        Targets:
+          - Arn:
+              'Fn::GetAtt':
+                - RepostLeadsScheduler
+                - Arn
+            Id: RepostLeadsSchedulerV1
+      Type: 'AWS::Events::Rule'
+
+  PermissionForSchedulerToInvokeRepostLeadsScheduler:
+      Properties:
+        Action: 'lambda:InvokeFunction'
+        FunctionName:
+          Ref: RepostLeadsScheduler
+        Principal: events.amazonaws.com
+        SourceArn:
+          'Fn::GetAtt':
+            - RepostLeadsSchedulerRule
+            - Arn
+      Type: 'AWS::Lambda::Permission'
+  ScheduledMapRule:
+    Properties:
+      Description: ScheduledMapRule
+      ScheduleExpression: rate(3 minutes)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - Map
+              - Arn
+          Id: MapV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeMapFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: Map
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledMapRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledRecommendRule:
+    Properties:
+      Description: ScheduledRecommendRule
+      ScheduleExpression: rate(3 minutes)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - Recommend
+              - Arn
+          Id: MapV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeRecommendFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: Recommend
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledRecommendRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledMailSentAuditRule:
+    Properties:
+      Description: ScheduledMailSentAuditRule
+      ScheduleExpression: cron(0 13 * * ? *)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - MailSentAudit
+              - Arn
+          Id: MailSentAuditV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeMailSentAudit:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: MailSentAudit
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledMailSentAuditRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledPartitionUpdate:
+    Properties:
+      Description: ScheduledPartitionUpdate
+      ScheduleExpression: cron(0 3,15 * * ? *)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - UpdateAthenaPartitions
+              - Arn
+          Id: UpdatePartitionsV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokePartitionsFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: UpdateAthenaPartitions
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledPartitionUpdate
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledExpandRecommendations:
+    Properties:
+      Description: ScheduledExpandRecommendations
+      ScheduleExpression: cron(0 11 * * ? *)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - ExpandRecommendationScheduler
+              - Arn
+          Id: ExpandRecommendationScheduler
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeExpandRecommendationFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: ExpandRecommendationScheduler
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledExpandRecommendations
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledMortgageRateUpdater:
+    Properties:
+      Description: ScheduledMortgageRateUpdater
+      ScheduleExpression: "cron(0 2,5,12 ? * FRI *)"
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - MortgageRateUpdater
+              - Arn
+          Id: MortgageRateUpdaterV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeScheduledMortgageRateUpdaterFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: MortgageRateUpdater
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledMortgageRateUpdater
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledSREReport:
+    Properties:
+      Description: ScheduledSREReport
+      ScheduleExpression: "cron(0 13 * * ? *)"
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - DailySREReport
+              - Arn
+          Id: DailySREReportV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeScheduledSREReportFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: DailySREReport
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledSREReport
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  MyDbSecurityByCIDRIPGroup:
+    Type: AWS::RDS::DBSecurityGroup
+    Properties:
+      GroupDescription: Ingress for CIDRIP
+      DBSecurityGroupIngress:
+        CIDRIP: "0.0.0.0/0"
+    Condition: IsProduction
+  GenerateSandboxLeadsRule:
+    Properties:
+      Description: GenerateSandboxLeadsRule
+      ScheduleExpression: rate(2 minutes)
+      State: ENABLED
+      Targets:
+      - Arn:
+          'Fn::GetAtt':
+          - GenerateSandboxLeads
+          - Arn
+        Id: GenerateSandboxLeadsV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsStagingAndNotSandbox
+
+  PermissionForGenerateSandboxLeadsRuleToInvokeGenerateSandboxLeadsFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: GenerateSandboxLeads
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+        - GenerateSandboxLeadsRule
+        - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsStagingAndNotSandbox
+  ScheduledDataArchitectureCallsSchedulerRule:
+    Properties:
+      Description: ScheduledAgentCallsRule
+      ScheduleExpression: rate(30 minutes)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - DataArchitectureCallsScheduler
+              - Arn
+          Id: DataArchitectureCallsSchedulerV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeDataArchitectureCallsFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: DataArchitectureCallsScheduler
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledDataArchitectureCallsSchedulerRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledMixTiersSchedulerRule:
+    Properties:
+      Description: ScheduledAgentCallsRule
+      ScheduleExpression: cron(0 7 ? * SUN *)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - MixTiersScheduler
+              - Arn
+          Id: MixTiersSchedulerV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeMixTiersSchedulerFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: MixTiersScheduler
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledMixTiersSchedulerRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+  ScheduledLeadsRule:
+    Properties:
+      Description: ScheduledLeadsRule
+      ScheduleExpression: rate(5 minutes)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - DataArchitectureLeadsScheduler
+              - Arn
+          Id: DataArchitectureLeadsSchedulerV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeDataArchitectureLeadsSchedulerFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: DataArchitectureLeadsScheduler
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledLeadsRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+
+  ScheduledLeadsRule12:
+    Properties:
+      Description: ScheduledLeadsRule
+      ScheduleExpression: cron(0 10,23 * * ? *)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - DataArchitectureLeadsScheduler
+              - Arn
+          Id: DataArchitectureLeadsSchedulerV1
+          Input: '{"format": "12hours"}'
+        
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForLeadsScheduler12:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: DataArchitectureLeadsScheduler
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledLeadsRule12
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+
+  ScheduledLeadsAuditRule:
+    Properties:
+      Description: ScheduledLeadsAuditRule
+      ScheduleExpression: cron(0 6 * * ? *)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - LeadsAuditScheduler
+              - Arn
+          Id: LeadsAuditSchedulerV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeLeadsAuditSchedulerFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: LeadsAuditScheduler
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledLeadsAuditRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+
+  ScheduledEventsRule:
+    Properties:
+      Description: ScheduledEventsRule
+      ScheduleExpression: rate(3 minutes)
+      State: ENABLED
+      Targets:
+        - Arn:
+            'Fn::GetAtt':
+              - DataArchitectureEventsScheduler
+              - Arn
+          Id: DataArchitectureEventsSchedulerV1
+    Type: 'AWS::Events::Rule'
+    Condition: IsNotSandbox
+
+  PermissionForSchedulerToInvokeDataArchitectureEventsFunction:
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName:
+        Ref: DataArchitectureEventsScheduler
+      Principal: events.amazonaws.com
+      SourceArn:
+        'Fn::GetAtt':
+          - ScheduledEventsRule
+          - Arn
+    Type: 'AWS::Lambda::Permission'
+    Condition: IsNotSandbox
+
+

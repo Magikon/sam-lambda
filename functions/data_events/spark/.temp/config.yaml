@@ -1,0 +1,7 @@
+env: staging
+db_name: propair_staging
+db_endpoint: staging.c6pocrcpqs8o.us-west-1.rds.amazonaws.com
+db_user: postgres
+bucket: pp-tables
+aws_region: us-west-1
+table_name: external_events

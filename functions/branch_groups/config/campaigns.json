@@ -1,0 +1,57 @@
+[
+    {
+        "CampaignId": "1028",
+        "CampaignTitle": "BestRateReferrals",
+        "CampaignGroupTitle": "PROPAIR 3rd Party"
+    },
+    {
+        "CampaignId": "1030",
+        "CampaignTitle": "Freerateupdate",
+        "CampaignGroupTitle": "My PROPAIR Organic"
+    },
+    {
+        "CampaignId": "1029",
+        "CampaignTitle": "LendGo",
+        "CampaignGroupTitle": "Retired"
+    },
+    {
+        "CampaignId": "1033",
+        "CampaignTitle": "Lendilio",
+        "CampaignGroupTitle": "SE 3rd Party"
+    },
+    {
+        "CampaignId": "1032",
+        "CampaignTitle": "LendingTree",
+        "CampaignGroupTitle": "Self Generated"
+    },
+    {
+        "CampaignId": "1034",
+        "CampaignTitle": "LowerMyBills",
+        "CampaignGroupTitle": "Sweeps 2019"
+    },
+    {
+        "CampaignId": "1021",
+        "CampaignTitle": "Referral",
+        "CampaignGroupTitle": "Test Campaign"
+    },
+    {
+        "CampaignId": "1022",
+        "CampaignTitle": "Self Generated",
+        "CampaignGroupTitle": "Use Branch Specific"
+    },
+    {
+        "CampaignId": "1025",
+        "CampaignTitle": "Website",
+        "CampaignGroupTitle": "Nine Hills Transfers"
+    },
+    {
+        "CampaignId": "1031",
+        "CampaignTitle": "Wisdom",
+        "CampaignGroupTitle": "Perks"
+    },
+    {
+        "CampaignId": "1035",
+        "CampaignTitle": "Zeta",
+        "CampaignGroupTitle": "Banker RPG"
+    }
+]

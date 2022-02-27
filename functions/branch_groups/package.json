@@ -1,0 +1,29 @@
+{
+  "name": "branch_groups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "dependencies": {
+    "aws-sdk": "^2.625.0",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.22.2",
+    "node-redshift": "^0.1.5",
+    "pg": "^7.4.3",
+    "pg-pool": "^2.0.3",
+    "query-string": "^6.1.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
+  },
+  "jest": {
+    "testRegex": "_test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "repost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "repost_leads.js",
+  "dependencies": {
+    "aws-sdk": "^2.500.0",
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1",
+    "csv-string": "^3.1.6",
+    "moment": "^2.24.0",
+    "node-redshift": "^0.1.5",
+    "pg": "^7.4.3",
+    "pg-pool": "^2.0.3",
+    "redis": "^3.0.2",
+    "rollbar": "^2.4.1",
+    "soap": "^0.26.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

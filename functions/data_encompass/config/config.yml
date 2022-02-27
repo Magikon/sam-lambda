@@ -1,0 +1,18 @@
+staging:
+  host: 10.34.8.111:9092
+  user: user
+  linger_ms: 1000
+  acks: 1
+  retries: 5
+  auto_offset_reset: earliest
+  group_id: group0
+  max_poll_records: 15000
+production:
+  host: 10.34.8.148:9092
+  user: user
+  linger_ms: 1000
+  acks: 1
+  retries: 5
+  auto_offset_reset: earliest
+  group_id: group1
+  max_poll_records: 15000

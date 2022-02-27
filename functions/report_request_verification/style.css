@@ -1,0 +1,171 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0;
+}
+
+body {
+    font-family: 'Verdana';
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #4d4e56;
+    /*max-width: 800px;*/
+    background: url(https://s3-us-west-1.amazonaws.com/pro-pair.com/static/media/header.02df8e81.png) no-repeat fixed 50% 0%;
+}
+
+table.container .header {
+    color: white;
+    margin: 0;
+    background: #498bca;
+    padding: 15px 20px;
+    border-radius: 8px 8px 0 0;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.table-header {
+    font-size: 18px;
+    padding: 5px 20px;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.table-count {
+    padding-left: 20px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.header img {
+    width: 100px;
+    padding-right: 30px;
+    vertical-align: middle;
+}
+
+.im {
+    color: inherit !important;
+}
+
+a {
+    color: #498bca;
+}
+
+.summaries-header {
+    margin: 0 25px;
+}
+
+ul.summaries-list {
+    padding: 10px 20px;
+    border-top: 2px solid #ececec;
+    border-bottom: 2px solid #ececec;
+}
+
+ul.summaries-list li {
+    list-style: none;
+    margin: 0;
+    padding: 10px 8px;
+}
+
+span.sub-header {
+    font-variant: small-caps;
+    font-size: 15px;
+}
+
+table.container {
+    background: white;
+    width: 80%;
+    margin: 25px auto;
+    border-radius: 8px;
+    border-spacing: 0px 0px;
+}
+
+table.container td {
+    padding: 5px 20px;
+}
+
+.section-header {
+    background: #498aca;
+    color: white;
+    padding: 15px 20px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.footer {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #999999;
+    text-align: -webkit-center;
+    vertical-align: top;
+    background-color: rgb(240, 240, 240);
+}
+
+table.data-table {
+    border-spacing: 0 0;
+    width: 100%;
+    margin: 15px 0;
+}
+
+table.data-table th {
+    background: #f26637;
+    padding: 5px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+table.data-table tr {
+    padding: 10px 20px;
+}
+
+table.data-table td {
+    padding: 5px 20px;
+    font-size: 15px;
+}
+
+table.data-table span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table.data-table em {
+    font-size: 13px;
+    color: #f26539
+}
+
+table.data-table tr.alternate {
+    background: #f1f1f1;
+}
+
+table.data-table.secondary {
+    border: 1px solid #498aca;
+}
+
+table.data-table.secondary td {
+    border: 1px solid #498aca;
+    font-size: 13px;
+}
+
+table.data-table.secondary th {
+    background: #498aca;
+}
+
+table tr.summary>td {
+    padding: 20px;
+    vertical-align: top;
+}

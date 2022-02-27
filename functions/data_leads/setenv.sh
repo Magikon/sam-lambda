@@ -1,0 +1,11 @@
+#! /bin/bash
+export PYTHONPATH=`pwd`
+export ENV=production
+export REDSHIFT_ENDPOINT=propair-rs.cbwhpsk1qhvp.us-west-1.redshift.amazonaws.com
+export REDSHIFT_DB_NAME=production
+export REDSHIFT_DB_USER=rsuser
+export REDSHIFT_DB_PORT=5439
+export BUCKET=pro-pair-serverless
+export VELOCIFY=No
+export TOPIC_ROLLBAR=arn:aws:sns:us-west-1:450889472107:pro-pair-serverless-RollbarTopic-1MMB8NGMJA711 
+. .py37/bin/activate

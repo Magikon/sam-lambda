@@ -1,0 +1,19 @@
+  LeadsTable:
+    Type: "AWS::Serverless::SimpleTable"
+    Properties:
+      PrimaryKey:
+         Name: id
+         Type: String
+      ProvisionedThroughput:
+         ReadCapacityUnits: 5
+         WriteCapacityUnits: 5
+
+  CustomersTable:
+    Type: "AWS::Serverless::SimpleTable"
+    Properties:
+      PrimaryKey:
+         Name: token
+         Type: String
+      ProvisionedThroughput:
+         ReadCapacityUnits: 5
+         WriteCapacityUnits: 5

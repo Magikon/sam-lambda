@@ -1,0 +1,26 @@
+{
+  "name": "insert",
+  "version": "1.0.0",
+  "main": "insert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.509.0",
+    "crypto-js": "^3.1.9-1",
+    "cryptojs": "^2.5.3",
+    "lodash": "^4.17.15",
+    "kafka-node": "^5.0.0",
+    "redis": "^3.0.2",
+    "node-redshift": "^0.1.5",
+    "moment": "^2.24.0",
+    "node-redshift": "^0.1.5",
+    "pg": "^7.4.3",
+    "pg-pool": "^2.0.3",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}

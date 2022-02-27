@@ -1,0 +1,332 @@
+{
+    "folderId": "af9da87e8e62305bea21475cbc9ab1e69b509df94b1bb748c626b8127629966b",
+    "workdocs" : [
+        {
+            "fileName": "Hmda Region Lookup.xlsx",
+            "name": "hmda_region.xlsx",
+            "updateTable": "hmda_region_lookup",
+            "updateColumns": [
+                {
+                    "name": "state",
+                    "coordinate": "A"
+                },
+                {
+                    "name": "hmda_state_id",
+                    "coordinate": "B"
+                },
+                {
+                    "name": "region_set1",
+                    "coordinate": "C"
+                },
+                {
+                    "name": "region_set1_name",
+                    "coordinate": "D"
+                },
+                {
+                    "name": "region_set2",
+                    "coordinate": "E"
+                },
+                {
+                    "name": "region_set2_name",
+                    "coordinate": "F"
+                }
+            ],
+            "isGlobal": true
+        },
+        {
+            "table": "tmp_credit_profile_lookup",
+            "updateTable": "credit_profile_stated_lookup",
+            "function": "view_credit_profile_lookup",
+            "fileName": "Credit Profile Stated Lookup.xlsx",
+            "name": "credit_profile.xlsx",
+            "columns": [
+                {
+                    "name": "source",
+                    "coordinate": "A"
+                },
+                {
+                    "name": "credit_profile_stated",
+                    "coordinate": "B"
+                }
+            ],
+            "updateColumns": [
+                {
+                    "name": "source",
+                    "coordinate": "A",
+                    "isRequired": true
+                },
+                {
+                    "name": "credit_profile_stated",
+                    "coordinate": "B",
+                    "isRequired": true
+                },
+                {
+                    "name": "BIN_credit_profile_stated",
+                    "coordinate": "C",
+                    "isRequired": true
+                }
+            ],
+            "isGlobal": false
+        },
+        {
+            "table": "tmp_source_detail_lookup",
+            "function": "view_source_detail_lookup",
+            "fileName": "Lead Source and Detail Lookups.xlsx",
+            "name": "source_detail.xlsx",
+            "columns": [
+                {
+                    "name": "campaign_group",
+                    "coordinate": "A"
+                },
+                {
+                    "name": "source_detail",
+                    "coordinate": "B"
+                },
+                {
+                    "name": "source",
+                    "coordinate": "C"
+                }
+            ],
+            "updateTable": "source_detail_lookup",
+            "updateColumns": [
+                {
+                    "name": "campaign_group",
+                    "coordinate": "A",
+                    "isRequired": true
+                },
+                {
+                    "name": "source_detail",
+                    "coordinate": "B",
+                    "isRequired": true
+                },
+                {
+                    "name": "source",
+                    "coordinate": "C",
+                    "isRequired": true
+                },
+                {
+                    "name": "BIN_source",
+                    "coordinate": "D",
+                    "isRequired": true
+                },
+                {
+                    "name": "ialgo_source",
+                    "coordinate": "E"
+                },
+                {
+                    "name": "transfer",
+                    "coordinate": "F"
+                },
+                {
+                    "name": "longform",
+                    "coordinate": "G"
+                },
+                {
+                    "name": "cob",
+                    "coordinate": "H"
+                },
+                {
+                    "name": "self_generated",
+                    "coordinate": "I"
+                },
+                {
+                    "name": "source_type",
+                    "coordinate": "J"
+                },
+                {
+                    "name": "source_channel",
+                    "coordinate": "K"
+                },
+                {
+                    "name": "mobile",
+                    "coordinate": "L"
+                },
+                {
+                    "name": "competition",
+                    "coordinate": "M"
+                },
+                {
+                    "name": "va",
+                    "coordinate": "N"
+                },
+                {
+                    "name": "historical_thru201612",
+                    "coordinate": "O"
+                },
+                {
+                    "name": "historical_from201701",
+                    "coordinate": "P"
+                }
+            ],
+            "isGlobal": false
+        },
+        {
+            "table": "tmp_property_type_lookup",
+            "function": "view_property_type_lookup",
+            "fileName": "Property Type Stated Lookup.xlsx",
+            "name": "property_type.xlsx",
+            "columns": [
+                {
+                    "name": "property_type_stated",
+                    "coordinate": "A"
+                }
+            ],
+            "updateTable": "property_type_stated_lookup",
+            "updateColumns": [
+                {
+                    "name": "property_type_stated",
+                    "coordinate": "A",
+                    "isRequired": true
+                },
+                {
+                    "name": "BIN_property_type_stated",
+                    "coordinate": "B",
+                    "isRequired": true
+                }
+            ],
+            "isGlobal": false
+        },
+        {
+            "table": "tmp_property_use_lookup",
+            "function": "view_property_use_lookup",
+            "fileName": "Property Use Stated Lookup.xlsx",
+            "name": "property_use.xlsx",
+            "columns": [
+                {
+                    "name": "property_use_stated",
+                    "coordinate": "A"
+                }
+            ],
+            "updateTable": "property_use_stated_lookup",
+            "updateColumns": [
+                {
+                    "name": "property_use_stated",
+                    "coordinate": "A",
+                    "isRequired": true
+                },
+                {
+                    "name": "BIN_property_use_stated",
+                    "coordinate": "B",
+                    "isRequired": true
+                }
+            ],
+            "isGlobal": false
+        },
+        {
+            "table": "tmp_purpose_detail_stated_lookup",
+            "function": "view_purpose_detail_lookup",
+            "fileName": "Purpose Detail Stated Lookup.xlsx",
+            "name": "purpose_detail.xlsx",
+            "columns": [
+                {
+                    "name": "purpose_detail_stated",
+                    "coordinate": "A"
+                }
+            ],
+            "updateTable": "purpose_detail_stated_lookup",
+            "updateColumns": [
+                {
+                    "name": "purpose_detail_stated",
+                    "coordinate": "A",
+                    "isRequired": true
+                },
+                {
+                    "name": "BIN_purpose_detail_stated",
+                    "coordinate": "B",
+                    "isRequired": true
+                },
+                {
+                    "name": "BIN_purpose_detail_stated2",
+                    "coordinate": "C"
+                }
+            ],
+            "isGlobal": false
+        },
+        {
+            "table": "tmp_property_state_stated_lookup",
+            "function": "view_property_state_lookup",
+            "fileName": "Property State Stated Lookup.xlsx",
+            "name": "property_state.xlsx",
+            "columns": [
+                {
+                    "name": "property_state_stated",
+                    "coordinate": "A"
+                }
+            ],
+            "updateTable": "property_state_stated_lookup",
+            "updateColumns": [
+                {
+                    "name": "property_state_stated",
+                    "coordinate": "A",
+                    "isRequired": true
+                },
+                {
+                    "name": "hmda_state_id",
+                    "coordinate": "B",
+                    "isRequired": true
+                }
+            ],
+            "isGlobal": false
+        },
+        {
+            "fileName": "Log Type Lookup.xlsx",
+            "name": "log_type.xlsx",
+            "updateTable": "log_type_lookup",
+            "updateColumns": [
+                {
+                    "name": "log_type_id",
+                    "coordinate": "A"
+                },
+                {
+                    "name": "log_type",
+                    "coordinate": "B"
+                }
+            ],
+            "isGlobal": true
+        },
+        {
+            "fileName": "Global Attribute Lookup.xlsx",
+            "name": "global.xlsx",
+            "updateTable": "global_attribute_lookup",
+            "updateColumns": [
+                {
+                    "name": "propair_field",
+                    "coordinate": "A"
+                },
+                {
+                    "name": "account_system",
+                    "coordinate": "B"
+                },
+                {
+                    "name": "table_name",
+                    "coordinate": "E"
+                },
+                {
+                    "name": "customer_field_name",
+                    "coordinate": "L"
+                },
+                {
+                    "name": "customer_original_field_name",
+                    "coordinate": "M"
+                },
+                {
+                    "name": "customer_split",
+                    "coordinate": "N"
+                },
+                {
+                    "name": "datatype",
+                    "coordinate": "H"
+                },
+                {
+                    "name": "include_variable",
+                    "coordinate": "F"
+                },
+                {
+                    "name": "qa_required",
+                    "coordinate": "R"
+                }
+            ],
+            "isGlobal": false
+        }
+    ]
+}

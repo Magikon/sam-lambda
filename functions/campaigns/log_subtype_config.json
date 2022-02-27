@@ -1,0 +1,112 @@
+{
+    "table": "tmp_log_subtype_lookup",
+    "function": "func_log_subtype_lookup",
+    "fileName": "Log Subtype Lookup.xlsx",
+    "name": "log_subtype.xlsx",
+    "columns": [
+        {
+            "name": "log_type_id",
+            "coordinate": "C"
+        },{
+            "name": "log_subtype_id",
+            "coordinate": "E"
+        }
+    ],
+    "updateTable": "log_subtype_lookup",
+    "updateColumns": [
+        {
+            "name": "log_subtype_name",
+            "coordinate": "A"
+        },
+        {
+            "name": "log_type",
+            "coordinate": "B"
+        },
+        {
+            "name": "log_type_id",
+            "coordinate": "C"
+        },
+        {
+            "name": "COUNT_of_log_subtype",
+            "coordinate": "D"
+        },
+        {
+            "name": "log_subtype_id",
+            "coordinate": "E"
+        },
+        {
+            "name": "BIN_log_subtype_name",
+            "coordinate": "F",
+            "isRequired": true
+        },
+        {
+            "name": "lo_assignment",
+            "coordinate": "G"
+        },
+        {
+            "name": "lo_distribution",
+            "coordinate": "H"
+        },
+        {
+            "name": "lo_call",
+            "coordinate": "I"
+        },
+        {
+            "name": "lo_email",
+            "coordinate": "J"
+        },
+        {
+            "name": "lo_text",
+            "coordinate": "K"
+        },
+        {
+            "name": "lo_action_event",
+            "coordinate": "L"
+        },
+        {
+            "name": "first_contact_event",
+            "coordinate": "M"
+        },
+        {
+            "name": "all_action_event",
+            "coordinate": "N"
+        },
+        {
+            "name": "lo_contact_event",
+            "coordinate": "O"
+        },
+        {
+            "name": "lo_voicemessage_event",
+            "coordinate": "P"
+        },
+        {
+            "name": "lead_action_event",
+            "coordinate": "Q"
+        },
+        {
+            "name": "negative_event",
+            "coordinate": "R"
+        },
+        {
+            "name": "inactive_event",
+            "coordinate": "S"
+        },
+        {
+            "name": "postcontact_event",
+            "coordinate": "T"
+        },
+        {
+            "name": "postqualification_event",
+            "coordinate": "U"
+        },
+        {
+            "name": "conversion_event",
+            "coordinate": "V"
+        },
+        {
+            "name": "badlead_event",
+            "coordinate": "W"
+        }
+    ],
+    "isGlobal": false
+}

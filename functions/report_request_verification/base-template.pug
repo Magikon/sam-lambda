@@ -1,0 +1,99 @@
+doctype html
+mixin data-table(title, data, secondary=false, percentage = true)
+	h2.table-header= title
+	if data.count
+		p.table-count Total Processed: #{data.count}
+	table.data-table(class=secondary ? 'secondary' : '') 
+		tr
+		each c in data.columns
+			th= c
+		each ac, i in data.values
+			- var alternate = i % 2 === 0
+			tr(class=alternate ? 'alternate' : '') 
+				if ac.name
+					td= ac.name 
+				each d in ac.data 
+					td 
+						span= d
+						if percentage
+							br
+							em= ((d / ac.data.reduce((a, b) => a + b, 0)) * 100).toFixed(2) + '%' 
+
+mixin list-summaries(data)
+	h3.summaries-header Summaries:
+	ul.summaries-list
+		each v in data	
+			li #{v.key}: #{v.value}
+
+html(lang="en")
+	head
+		title= pageTitle
+		link(rel="stylesheet", href="style.css")
+		meta(name="description" content="")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		style.
+			@media screen and (max-device-width: 980px),
+				screen and (max-width: 980px) {
+						table.container {
+								width: 100%;
+								margin: 0;
+						}
+						table.container td {
+								padding: 5px 0;
+						}
+						div.background {
+								padding: 0;
+						}
+						.header {
+								font-size: 20px;
+						}
+						.header span {
+								width: 100%;
+								display: block;
+								margin: 5px 0;
+						}
+						table {
+								font-size: 13px;
+								padding: 0;
+						}
+						table.data-table td,
+						table.data-table th {
+								padding: 5px;
+						}
+						table.data-table span {
+								font-size: 13px;
+						}
+						table.data-table em {
+								font-size: 11px;
+						}
+						h2 {
+								font-size: 16px;
+						}
+				}
+	body
+		table.container
+			tr
+				td.header(colspan="2")
+					img(src="https://s3-us-west-1.amazonaws.com/pro-pair.com/static/media/logo.18493d2c.png", alt="Logo")
+					span= header_title
+			each model in data
+
+				tr 
+					td(colspan="2") 
+						h1.section-header=model.title
+
+				if model.summaries
+					tr.summary 
+						td(colspan=model.timestamps ? "1" :"2") 
+							+list-summaries(model.summaries)
+							
+				if model.timestamps
+					each ts in model.timestamps
+						tr
+							td(colspan="2")
+								+data-table(ts.title, ts, true, false)
+				
+				each t in model.tables
+					tr
+						td(colspan="2")
+								+data-table(t.title, t)

@@ -1,0 +1,32 @@
+  NodeJsLayer:
+    Type: "AWS::Lambda::LayerVersion"
+    Properties:
+      CompatibleRuntimes:
+        - nodejs12.x
+      Content: 
+        S3Bucket: !Ref ProPairBucketName
+        S3Key: !Sub layers/${BuildIdentifer}/nodejs.zip
+      Description: NodeJS lambda layer
+      LayerName: propair-nodejs-layer
+
+  PythonLayer:
+    Type: "AWS::Lambda::LayerVersion"
+    Properties:
+      CompatibleRuntimes:
+        - python2.7
+      Content: 
+        S3Bucket: !Ref ProPairBucketName
+        S3Key: !Sub layers/${BuildIdentifer}/python.zip
+      Description: Python lambda layer
+      LayerName: propair-python-layer
+  
+  Python3Layer:
+    Type: "AWS::Lambda::LayerVersion"
+    Properties:
+      CompatibleRuntimes:
+        - python3.7
+      Content: 
+        S3Bucket: !Ref ProPairBucketName
+        S3Key: !Sub layers/${BuildIdentifer}/python3.zip
+      Description: Python3 lambda layer
+      LayerName: propair-python3-layer
