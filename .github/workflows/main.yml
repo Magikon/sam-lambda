@@ -8,11 +8,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
-      # - run: npm install
-      # - run: npm test
+          node-version: '12'
       - uses: aws-actions/setup-sam@v1
         # with:
           # version: 1.23.0
@@ -22,11 +22,11 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       # sam build 
-      - run: which make
-      - run: sam build --debug #--use-container
-
-# Run Unit tests- Specify unit tests here 
-
-# sam deploy
-      - run: sam deploy --config-file=samconfig.toml --force-upload --config-env=dev --no-fail-on-empty-changeset
-    #  - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name sam-hello-world --s3-bucket ##s3-bucket## --capabilities CAPABILITY_IAM --region ##region##
+      - run |
+          ./yaml/cc.sh
+          sam build --debug #--use-container
+      # sam deploy
+      #   sam deploy --config-file=samconfig.toml --force-upload --config-env=dev --no-fail-on-empty-changeset
+      ##   sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name sam-hello-world --s3-bucket ##s3-bucket## --capabilities CAPABILITY_IAM --region ##region##
+          rm -f ./template.yaml
+          
