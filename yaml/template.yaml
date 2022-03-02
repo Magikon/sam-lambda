@@ -889,7 +889,7 @@ Resources:
       Layers:
         - !Ref NodeJsLayer
       Handler: insert.handler
-      CodeUri: functions/leads_insert
+      CodeUri: functions/leads/insert
       MemorySize: 512
       Tracing: Active
       Role:
@@ -921,7 +921,7 @@ Resources:
       Layers:
         - !Ref NodeJsLayer
       Handler: log_lead_meta.handler
-      CodeUri: functions/report_log_lead
+      CodeUri: functions/reporting/log_lead
       MemorySize: 512
       Timeout: 180
       Tracing: Active
@@ -959,7 +959,7 @@ Resources:
       Layers:
         - !Ref NodeJsLayer
       Handler: rollbar.handler
-      CodeUri: functions/report_rollbar
+      CodeUri: functions/reporting/rollbar
       MemorySize: 512
       Timeout: 300
       Role:
@@ -1167,7 +1167,7 @@ Resources:
       Layers:
         - !Ref NodeJsLayer
       Handler: log_lead_in.handler
-      CodeUri: functions/report_log_lead_in
+      CodeUri: functions/reporting/log_lead_in
       MemorySize: 512
       Timeout: 900
       Tracing: Active
@@ -1198,7 +1198,7 @@ Resources:
     Properties:
       Runtime: nodejs12.x
       Handler: repost_leads.handler
-      CodeUri: functions/leads_repost
+      CodeUri: functions/leads/repost
       Layers:
         - !Ref NodeJsLayer
       MemorySize: 512
@@ -1236,7 +1236,7 @@ Resources:
     Properties:
       Runtime: nodejs12.x
       Handler: scheduler.handler
-      CodeUri: functions/leads_repost
+      CodeUri: functions/leads/repost
       Layers:
         - !Ref NodeJsLayer
       MemorySize: 512
@@ -1282,7 +1282,7 @@ Resources:
       Layers:
         - !Ref NodeJsLayer
       Handler: map.handler
-      CodeUri: functions/leads_map
+      CodeUri: functions/leads/map
       MemorySize: 512
       Tracing: Active
       Timeout: 300
@@ -1311,7 +1311,7 @@ Resources:
     # Properties:
       # Runtime: python2.7
       # Handler: recommend.recommend
-      # CodeUri: functions/leads_recommend
+      # CodeUri: functions/leads/recommend
       # MemorySize: 3008
       # Timeout: 900
       # Tracing: Active
@@ -1340,41 +1340,41 @@ Resources:
         # - SNSPublishMessagePolicy:
             # TopicName: !GetAtt ErrorNotificationTopic.TopicName
 ################################################################################################
-  # DirectMail:
-    # Type: AWS::Serverless::Function
-    # Metadata:
-      # BuildMethod: makefile
-    # Properties:
-      # Runtime: python2.7
-      # Handler: direct_mail.direct_mail
-      # CodeUri: functions/leads_recommend
-      # MemorySize: 3008
-      # Timeout: 900
-      # Tracing: Active
-      # Role:
-        # 'Fn::GetAtt':
-          # - Role
-          # - Arn
-      # Environment:
-        # Variables:
-          # ENV: !Ref Env
-          # TOPIC_ERROR: !Ref ErrorNotificationTopic
-          # TOPIC_ROLLBAR: !Ref RollbarTopic
-          # BUCKET: !Ref ProPairBucketName
-          # REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
-          # REDSHIFT_DB_USER: !Ref RedshiftDBUser
-          # REDSHIFT_DB_NAME: !Ref RedshiftDBName
-          # REDSHIFT_DB_PORT: !Ref RedshiftDBPort
-      # VpcConfig: 
-        # SecurityGroupIds: 
-          # - sg-0b54841712c67143c
-          # - sg-0409e987266b33345
-        # SubnetIds: 
-          # - subnet-072fb25b65d0098f2
-          # - subnet-08702ed2157ee7951
-      # Policies:
-        # - SNSPublishMessagePolicy:
-            # TopicName: !GetAtt ErrorNotificationTopic.TopicName
+  DirectMail:
+    Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
+    Properties:
+      Runtime: python2.7
+      Handler: direct_mail.direct_mail
+      CodeUri: functions/leads/recommend
+      MemorySize: 3008
+      Timeout: 900
+      Tracing: Active
+      Role:
+        'Fn::GetAtt':
+          - Role
+          - Arn
+      Environment:
+        Variables:
+          ENV: !Ref Env
+          TOPIC_ERROR: !Ref ErrorNotificationTopic
+          TOPIC_ROLLBAR: !Ref RollbarTopic
+          BUCKET: !Ref ProPairBucketName
+          REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
+          REDSHIFT_DB_USER: !Ref RedshiftDBUser
+          REDSHIFT_DB_NAME: !Ref RedshiftDBName
+          REDSHIFT_DB_PORT: !Ref RedshiftDBPort
+      VpcConfig: 
+        SecurityGroupIds: 
+          - sg-0b54841712c67143c
+          - sg-0409e987266b33345
+        SubnetIds: 
+          - subnet-072fb25b65d0098f2
+          - subnet-08702ed2157ee7951
+      Policies:
+        - SNSPublishMessagePolicy:
+            TopicName: !GetAtt ErrorNotificationTopic.TopicName
 ################################################################################################
   ProcessDirectMail:
     Type: AWS::Serverless::Function
@@ -1385,7 +1385,7 @@ Resources:
       Layers:
         - !Ref NodeJsLayer
       Handler: api.handler
-      CodeUri: functions/leads_direct_mail
+      CodeUri: functions/leads/direct_mail
       MemorySize: 512
       Tracing: Active
       Timeout: 900
@@ -1423,7 +1423,7 @@ Resources:
       Layers:
         - !Ref NodeJsLayer
       Handler: audit.handler
-      CodeUri: functions/leads_direct_mail
+      CodeUri: functions/leads/direct_mail
       MemorySize: 512
       Tracing: Active
       Timeout: 900
@@ -1480,7 +1480,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: expand_rec.expand
-      CodeUri: functions/leads_expand_recommendation_string
+      CodeUri: functions/leads/expand_recommendation_string
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1513,7 +1513,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: scheduler.update
-      CodeUri: functions/leads_expand_recommendation_string
+      CodeUri: functions/leads/expand_recommendation_string
       MemorySize: 256
       Timeout: 300
       Role:
@@ -1579,7 +1579,7 @@ Resources:
       Layers:
         - !Ref NodeJsLayer
       Handler: daily_sre.handler
-      CodeUri: functions/report_request_verification
+      CodeUri: functions/reporting/request_verification
       MemorySize: 256
       Timeout: 300
       Tracing: Active
@@ -1613,7 +1613,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: generator.main
-      CodeUri: functions/data_lead_generator
+      CodeUri: functions/data_architecture/lead_generator
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1651,7 +1651,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: leads_producer_audit.update
-      CodeUri: functions/data_leads
+      CodeUri: functions/data_architecture/leads
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1683,7 +1683,7 @@ Resources:
       Layers:
         - !Ref PythonLayer
       Handler: audit_scheduler.update
-      CodeUri: functions/data_leads
+      CodeUri: functions/data_architecture/leads
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1716,7 +1716,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: leads_producer.update
-      CodeUri: functions/data_leads
+      CodeUri: functions/data_architecture/leads
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1749,7 +1749,7 @@ Resources:
       Layers:
         - !Ref PythonLayer
       Handler: scheduler.update
-      CodeUri: functions/data_leads
+      CodeUri: functions/data_architecture/leads
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1783,7 +1783,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: events_producer.update
-      CodeUri: functions/data_events
+      CodeUri: functions/data_architecture/events
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1815,7 +1815,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: scheduler.update
-      CodeUri: functions/data_events
+      CodeUri: functions/data_architecture/events
       MemorySize: 512
       Timeout: 900
       Role:
@@ -1848,7 +1848,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: encompass.update
-      CodeUri: functions/data_encompass
+      CodeUri: functions/data_architecture/encompass
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1881,7 +1881,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: hr_updates.update
-      CodeUri: functions/data_agent_profiles
+      CodeUri: functions/data_architecture/agent_profiles
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1913,7 +1913,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: calls_producer.update
-      CodeUri: functions/data_calls
+      CodeUri: functions/data_architecture/calls
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1945,7 +1945,7 @@ Resources:
       Layers:
         - !Ref PythonLayer
       Handler: scheduler.update
-      CodeUri: functions/data_calls
+      CodeUri: functions/data_architecture/calls
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1978,7 +1978,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: handler.main
-      CodeUri: functions/leads_mix
+      CodeUri: functions/leads/mix
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -2006,7 +2006,7 @@ Resources:
       Layers:
         - !Ref Python3Layer
       Handler: scheduler.update
-      CodeUri: functions/leads_mix
+      CodeUri: functions/leads/mix
       MemorySize: 512
       Timeout: 150
       Role:

@@ -1,7 +1,9 @@
 Resources:
-
+################################################################################################
   CreateLead:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -51,7 +53,6 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
-
       Events:
         LeadCreation:
           Type: Api
@@ -60,9 +61,11 @@ Resources:
             Method: post
           Authorizer:
             Type: "AWS::ApiGateway::Authorizer"
-            
+################################################################################################
   LeadsStream:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -120,8 +123,11 @@ Resources:
             Method: post
           Authorizer:
             Type: "AWS::ApiGateway::Authorizer"
+################################################################################################
   IndexAccounts:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -155,8 +161,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   ShowAccount:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -190,8 +199,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   CreateAccount:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -225,8 +237,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   UpdateAccount:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -260,8 +275,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   IndexAgents:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -296,8 +314,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   ShowAgent:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -331,8 +352,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   CreateAgent:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -366,9 +390,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
-
+################################################################################################
   CreateAgents:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -402,8 +428,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   UpdateAgent:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -437,9 +466,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
-
+################################################################################################
   UpdateAgents:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -473,8 +504,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   IndexBranches:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -508,8 +542,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   CreateBranch:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -543,8 +580,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   ShowBranch:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -578,8 +618,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   UpdateBranch:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -613,8 +656,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   IndexBranchGroups:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -648,8 +694,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   CreateBranchGroup:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -683,8 +732,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   ShowBranchGroup:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -718,8 +770,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   UpdateBranchGroup:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -753,14 +808,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   InsertRecord:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
         - !Ref NodeJsLayer
       Handler: insert.handler
-      CodeUri: functions/leads/insert
+      CodeUri: functions/leads_insert
       MemorySize: 512
       Tracing: Active
       Role:
@@ -782,14 +840,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951    
+################################################################################################
   LogLead:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
         - !Ref NodeJsLayer
       Handler: log_lead_meta.handler
-      CodeUri: functions/reporting/log_lead
+      CodeUri: functions/report_log_lead
       MemorySize: 512
       Timeout: 180
       Tracing: Active
@@ -817,14 +878,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951    
+################################################################################################
   Rollbar:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
         - !Ref NodeJsLayer
       Handler: rollbar.handler
-      CodeUri: functions/reporting/rollbar
+      CodeUri: functions/report_rollbar
       MemorySize: 512
       Timeout: 300
       Role:
@@ -847,8 +911,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951 
+################################################################################################
   UpdateCampaigns:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -876,8 +943,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   UpdateLookupsForCampaigns:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -905,8 +975,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   UpdateStagingLookupsFiles:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Condition: IsStaging
     Properties:
       Runtime: nodejs12.x
@@ -935,8 +1008,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   ReportRecommendations:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -958,8 +1034,11 @@ Resources:
             Method: get
           Authorizer:
             Type: "AWS::ApiGateway::Authorizer"
+################################################################################################
   ReportEvents:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -981,8 +1060,11 @@ Resources:
             Method: get
           Authorizer:
             Type: "AWS::ApiGateway::Authorizer"
+################################################################################################
   ReportSummaries:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -1004,14 +1086,17 @@ Resources:
             Method: get
           Authorizer:
             Type: "AWS::ApiGateway::Authorizer"
+################################################################################################
   LogLeadIn:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
         - !Ref NodeJsLayer
       Handler: log_lead_in.handler
-      CodeUri: functions/reporting/log_lead_in
+      CodeUri: functions/report_log_lead_in
       MemorySize: 512
       Timeout: 900
       Tracing: Active
@@ -1034,12 +1119,15 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951   
+################################################################################################
   RepostLeads:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Handler: repost_leads.handler
-      CodeUri: functions/leads/repost
+      CodeUri: functions/leads_repost
       Layers:
         - !Ref NodeJsLayer
       MemorySize: 512
@@ -1069,12 +1157,15 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   RepostLeadsScheduler:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Handler: scheduler.handler
-      CodeUri: functions/leads/repost
+      CodeUri: functions/leads_repost
       Layers:
         - !Ref NodeJsLayer
       MemorySize: 512
@@ -1110,14 +1201,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   Map:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
         - !Ref NodeJsLayer
       Handler: map.handler
-      CodeUri: functions/leads/map
+      CodeUri: functions/leads_map
       MemorySize: 512
       Tracing: Active
       Timeout: 300
@@ -1140,80 +1234,87 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
-  Recommend:
-    Type: AWS::Serverless::Function
-    Properties:
-      Runtime: python2.7
-      Handler: recommend.recommend
-      CodeUri: functions/leads/recommend
-      MemorySize: 3008
-      Timeout: 900
-      Tracing: Active
-      Role:
-        'Fn::GetAtt':
-          - Role
-          - Arn
-      Environment:
-        Variables:
-          ENV: !Ref Env
-          TOPIC_ERROR: !Ref ErrorNotificationTopic
-          TOPIC_ROLLBAR: !Ref RollbarTopic
-          BUCKET: !Ref ProPairBucketName
-          REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
-          REDSHIFT_DB_USER: !Ref RedshiftDBUser
-          REDSHIFT_DB_NAME: !Ref RedshiftDBName
-          REDSHIFT_DB_PORT: !Ref RedshiftDBPort
-      VpcConfig: 
-        SecurityGroupIds: 
-          - sg-0b54841712c67143c
-          - sg-0409e987266b33345
-        SubnetIds: 
-          - subnet-072fb25b65d0098f2
-          - subnet-08702ed2157ee7951
-      Policies:
-        - SNSPublishMessagePolicy:
-            TopicName: !GetAtt ErrorNotificationTopic.TopicName
-  DirectMail:
-    Type: AWS::Serverless::Function
-    Properties:
-      Runtime: python2.7
-      Handler: direct_mail.direct_mail
-      CodeUri: functions/leads/recommend
-      MemorySize: 3008
-      Timeout: 900
-      Tracing: Active
-      Role:
-        'Fn::GetAtt':
-          - Role
-          - Arn
-      Environment:
-        Variables:
-          ENV: !Ref Env
-          TOPIC_ERROR: !Ref ErrorNotificationTopic
-          TOPIC_ROLLBAR: !Ref RollbarTopic
-          BUCKET: !Ref ProPairBucketName
-          REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
-          REDSHIFT_DB_USER: !Ref RedshiftDBUser
-          REDSHIFT_DB_NAME: !Ref RedshiftDBName
-          REDSHIFT_DB_PORT: !Ref RedshiftDBPort
-      VpcConfig: 
-        SecurityGroupIds: 
-          - sg-0b54841712c67143c
-          - sg-0409e987266b33345
-        SubnetIds: 
-          - subnet-072fb25b65d0098f2
-          - subnet-08702ed2157ee7951
-      Policies:
-        - SNSPublishMessagePolicy:
-            TopicName: !GetAtt ErrorNotificationTopic.TopicName
+################################################################################################
+  # Recommend:
+    # Type: AWS::Serverless::Function
+    # Properties:
+      # Runtime: python2.7
+      # Handler: recommend.recommend
+      # CodeUri: functions/leads_recommend
+      # MemorySize: 3008
+      # Timeout: 900
+      # Tracing: Active
+      # Role:
+        # 'Fn::GetAtt':
+          # - Role
+          # - Arn
+      # Environment:
+        # Variables:
+          # ENV: !Ref Env
+          # TOPIC_ERROR: !Ref ErrorNotificationTopic
+          # TOPIC_ROLLBAR: !Ref RollbarTopic
+          # BUCKET: !Ref ProPairBucketName
+          # REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
+          # REDSHIFT_DB_USER: !Ref RedshiftDBUser
+          # REDSHIFT_DB_NAME: !Ref RedshiftDBName
+          # REDSHIFT_DB_PORT: !Ref RedshiftDBPort
+      # VpcConfig: 
+        # SecurityGroupIds: 
+          # - sg-0b54841712c67143c
+          # - sg-0409e987266b33345
+        # SubnetIds: 
+          # - subnet-072fb25b65d0098f2
+          # - subnet-08702ed2157ee7951
+      # Policies:
+        # - SNSPublishMessagePolicy:
+            # TopicName: !GetAtt ErrorNotificationTopic.TopicName
+################################################################################################
+  # DirectMail:
+    # Type: AWS::Serverless::Function
+    # Metadata:
+      # BuildMethod: makefile
+    # Properties:
+      # Runtime: python2.7
+      # Handler: direct_mail.direct_mail
+      # CodeUri: functions/leads_recommend
+      # MemorySize: 3008
+      # Timeout: 900
+      # Tracing: Active
+      # Role:
+        # 'Fn::GetAtt':
+          # - Role
+          # - Arn
+      # Environment:
+        # Variables:
+          # ENV: !Ref Env
+          # TOPIC_ERROR: !Ref ErrorNotificationTopic
+          # TOPIC_ROLLBAR: !Ref RollbarTopic
+          # BUCKET: !Ref ProPairBucketName
+          # REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
+          # REDSHIFT_DB_USER: !Ref RedshiftDBUser
+          # REDSHIFT_DB_NAME: !Ref RedshiftDBName
+          # REDSHIFT_DB_PORT: !Ref RedshiftDBPort
+      # VpcConfig: 
+        # SecurityGroupIds: 
+          # - sg-0b54841712c67143c
+          # - sg-0409e987266b33345
+        # SubnetIds: 
+          # - subnet-072fb25b65d0098f2
+          # - subnet-08702ed2157ee7951
+      # Policies:
+        # - SNSPublishMessagePolicy:
+            # TopicName: !GetAtt ErrorNotificationTopic.TopicName
+################################################################################################
   ProcessDirectMail:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
         - !Ref NodeJsLayer
       Handler: api.handler
-      CodeUri: functions/leads/direct_mail
+      CodeUri: functions/leads_direct_mail
       MemorySize: 512
       Tracing: Active
       Timeout: 900
@@ -1241,14 +1342,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   MailSentAudit:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
         - !Ref NodeJsLayer
       Handler: audit.handler
-      CodeUri: functions/leads/direct_mail
+      CodeUri: functions/leads_direct_mail
       MemorySize: 512
       Tracing: Active
       Timeout: 900
@@ -1273,8 +1377,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   UpdateAthenaPartitions:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
@@ -1292,14 +1399,17 @@ Resources:
         Variables:
           ATHENA_DB_NAME: !Ref AthenaDBName
           BUCKET: !Ref ReportsBucketName
+################################################################################################
   ExpandRecommendation:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: expand_rec.expand
-      CodeUri: functions/leads/expand_recommendation_string
+      CodeUri: functions/leads_expand_recommendation_string
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1322,14 +1432,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   ExpandRecommendationScheduler:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: scheduler.update
-      CodeUri: functions/leads/expand_recommendation_string
+      CodeUri: functions/leads_expand_recommendation_string
       MemorySize: 256
       Timeout: 300
       Role:
@@ -1352,8 +1465,11 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   MortgageRateUpdater:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
@@ -1382,14 +1498,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   DailySREReport:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: nodejs12.x
       Layers:
         - !Ref NodeJsLayer
       Handler: daily_sre.handler
-      CodeUri: functions/reporting/request_verification
+      CodeUri: functions/report_request_verification
       MemorySize: 256
       Timeout: 300
       Tracing: Active
@@ -1413,14 +1532,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   GenerateSandboxLeads:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: generator.main
-      CodeUri: functions/data_architecture/lead_generator
+      CodeUri: functions/data_lead_generator
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1448,14 +1570,17 @@ Resources:
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
     Condition: IsStaging
+################################################################################################
   LeadsAudit:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: leads_producer_audit.update
-      CodeUri: functions/data_architecture/leads
+      CodeUri: functions/data_leads
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1477,14 +1602,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   LeadsAuditScheduler:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python2.7
       Layers:
         - !Ref PythonLayer
       Handler: audit_scheduler.update
-      CodeUri: functions/data_architecture/leads
+      CodeUri: functions/data_leads
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1507,14 +1635,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   DataArchitectureLeadsRedshift:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: leads_producer.update
-      CodeUri: functions/data_architecture/leads
+      CodeUri: functions/data_leads
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1537,14 +1668,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   DataArchitectureLeadsScheduler:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python2.7
       Layers:
         - !Ref PythonLayer
       Handler: scheduler.update
-      CodeUri: functions/data_architecture/leads
+      CodeUri: functions/data_leads
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1568,14 +1702,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   DataArchitectureEventsRedshift:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: events_producer.update
-      CodeUri: functions/data_architecture/events
+      CodeUri: functions/data_events
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1597,14 +1734,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   DataArchitectureEventsScheduler:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: scheduler.update
-      CodeUri: functions/data_architecture/events
+      CodeUri: functions/data_events
       MemorySize: 512
       Timeout: 900
       Role:
@@ -1627,14 +1767,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   DataArchitectureEncompass:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: encompass.update
-      CodeUri: functions/data_architecture/encompass
+      CodeUri: functions/data_encompass
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1657,14 +1800,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   HRUpdates:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: hr_updates.update
-      CodeUri: functions/data_architecture/agent_profiles
+      CodeUri: functions/data_agent_profiles
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1686,14 +1832,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   DataArchitectureCallsRedshift:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: calls_producer.update
-      CodeUri: functions/data_architecture/calls
+      CodeUri: functions/data_calls
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1715,14 +1864,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   DataArchitectureCallsScheduler:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python2.7
       Layers:
         - !Ref PythonLayer
       Handler: scheduler.update
-      CodeUri: functions/data_architecture/calls
+      CodeUri: functions/data_calls
       MemorySize: 3008
       Timeout: 300
       Role:
@@ -1745,14 +1897,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   MixTiers:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: handler.main
-      CodeUri: functions/leads/mix
+      CodeUri: functions/leads_mix
       MemorySize: 3008
       Timeout: 900
       Role:
@@ -1770,14 +1925,17 @@ Resources:
         SubnetIds: 
           - subnet-072fb25b65d0098f2
           - subnet-08702ed2157ee7951
+################################################################################################
   MixTiersScheduler:
     Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
       Runtime: python3.7
       Layers:
         - !Ref Python3Layer
       Handler: scheduler.update
-      CodeUri: functions/leads/mix
+      CodeUri: functions/leads_mix
       MemorySize: 512
       Timeout: 150
       Role:

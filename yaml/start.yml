@@ -1,0 +1,71 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Description: ProPair Serverless App
+
+Globals:
+
+  Api:
+    # enable CORS; to make more specific, change the origin wildcard
+    # to a particular domain name, e.g. "'www.example.com'"
+    Cors:
+      AllowMethods: "'*'"
+      AllowHeaders: "'*'"
+      AllowOrigin: "'*'"
+
+Parameters:
+  AWSUser:
+    Description: AWS User for credentials
+    Type: String
+  BuildIdentifer:
+    Description: Build identifier string
+    Type: String
+  Env:
+    Type: String
+    Description: Environment to deploy
+  DBEndpoint:
+    Type: String
+    Description: RDS database endpoint
+  DBName:
+    Type: String
+    Description: Name of the RDS database
+  RedshiftDBEndpoint:
+    Type: String
+    Description: Redshift database endpoint
+  RedshiftDBName:
+    Type: String
+    Description: Redshift database name
+  RedshiftDBUser:
+    Type: String
+    Description: Redshift database user
+  RedshiftDBPort:
+    Type: String
+    Description: Redshift database port
+  ProPairBucketName:
+    Type: String
+    Description: Name of the ProPair data bucket
+  AthenaDBName:
+    Type: String
+    Description: Name of the athena database
+  ReportsBucketName:
+    Type: String
+    Description: Name of the reports bucket
+  IsSandbox:
+    Type: String
+    Description: Determines if the deployment is a developer sandbox
+  #MasterUserPassword:
+  #  Description: The master password for the DB instance.
+  #  Type: String
+  #  NoEcho: true
+
+Conditions:
+  IsProduction:
+    !Equals [!Ref Env, production]
+  IsStaging:
+    !Equals [!Ref Env, staging]
+  IsNotSandbox:
+    !Not [!Equals [!Ref IsSandbox, true]]
+  IsProductionAndNotSandbox:
+    !And [!Equals [!Ref Env, production], !Not [!Equals [!Ref IsSandbox, true]]]
+  IsStagingAndNotSandbox:
+    !And [!Equals [!Ref Env, staging], !Not [!Equals [!Ref IsSandbox, true]]]

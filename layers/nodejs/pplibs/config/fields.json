@@ -1,0 +1,102 @@
+[
+    {
+        "fieldId": "170",
+        "fieldName": "CreditProfile",
+        "propairFieldName": "credit_profile_stated"
+    },
+    {
+        "fieldId": "4",
+        "fieldName": "FirstName",
+        "propairFieldName": "first_name_stated"
+    },
+    {
+        "fieldId": "5",
+        "fieldName": "LastName",
+        "propairFieldName": "last_name"
+    },
+    {
+        "fieldId": "3",
+        "fieldName": "EmailAddress",
+        "propairFieldName": "email_stated"
+    },
+    {
+        "fieldId": "172",
+        "fieldName": "DayPhone",
+        "propairFieldName": "day_phone"
+    },
+    {
+        "fieldId": "173",
+        "fieldName": "EveningPhone",
+        "propairFieldName": "evening_phone"
+    },
+    {
+        "fieldId": "174",
+        "fieldName": "ExistingHomeValue",
+        "propairFieldName": "home_value_stated"
+    },
+    {
+        "fieldId": "177",
+        "fieldName": "IntendedPropertyUse",
+        "propairFieldName": "property_use_stated"
+    },
+    {
+        "fieldId": "178",
+        "fieldName": "LoanAmount",
+        "propairFieldName": "loan_amount_stated"
+    },
+    {
+        "fieldId": "179",
+        "fieldName": "LoanPurpose",
+        "propairFieldName": "purpose_detail_stated"
+    },
+    {
+        "fieldId": "186",
+        "fieldName": "PropertyAddress",
+        "propairFieldName": "property_address_stated"
+    },
+    {
+        "fieldId": "187",
+        "fieldName": "PropertyState",
+        "propairFieldName": "property_state_stated"
+    },
+    {
+        "fieldId": "188",
+        "fieldName": "PropertyType",
+        "propairFieldName": "property_type_stated"
+    },
+    {
+        "fieldId": "180",
+        "fieldName": "PropertyZipCode",
+        "propairFieldName": "property_zip_code_stated"
+    },
+    {
+        "fieldId": "181",
+        "fieldName": "PurchasePrice",
+        "propairFieldName": "purchase_price_stated"
+    },
+    {
+        "fieldId": "182",
+        "fieldName": "LeadProviderName",
+        "propairFieldName": "source"
+    },
+    {
+        "fieldId": "8",
+        "fieldName": "State",
+        "propairFieldName": "property_state_stated"
+    },
+    {
+        "fieldId": "168",
+        "fieldName": "IsMilitary",
+        "propairFieldName": "va_eligible_stated"
+    },
+    {
+        "fieldId": "167",
+        "fieldName": "FICO",
+        "propairFieldName": "credit_score_stated"
+    },
+    {
+        "fieldId": "183",
+        "fieldName": "CIS",
+        "propairFieldName": "cis_score"
+    }
+]
