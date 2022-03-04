@@ -33,7 +33,7 @@ jobs:
         echo "SERVICE_SNOWFLAKE=hivot-snowflake"  >> $GITHUB_ENV
         echo "SERVICE_WORKERS=hivot-workers"  >> $GITHUB_ENV
         echo "EXIT_CODE=0" >> $GITHUB_ENV
-        echo "TAG=${{ github.event.inputs.environment }}-v${{ github.event.inputs.version }}
+        echo "TAG=${{ github.event.inputs.environment }}-v${{ github.event.inputs.version }}" >> $GITHUB_ENV
         
     - name: Print params
       run: |
