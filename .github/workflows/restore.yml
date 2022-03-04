@@ -1,0 +1,60 @@
+name: Restore Tagged Image As Working Image In Development Environment
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        version:
+        description: 'Tag without env name and v'
+        required: true
+      environment:
+        description: 'Choose Environment'
+        type: choice
+        required: true
+        options:
+          - dev
+          - stage
+          - beta
+          - prod
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Shared configs
+      run: |
+        echo "AWS_DEFAULT_REGION=us-east-1"  >> $GITHUB_ENV
+        echo "ECR_REPOSITORY=hivot"  >> $GITHUB_ENV
+        echo "IMAGE_TAG=${{ github.event.inputs.environment }}"  >> $GITHUB_ENV
+        echo "SERVICE_CLUSTER=hivot-cluster-${{ github.event.inputs.environment }}"  >> $GITHUB_ENV
+        echo "SERVICE_AUTH=hivot-auth"  >> $GITHUB_ENV
+        echo "SERVICE_API=hivot-api"  >> $GITHUB_ENV
+        echo "SERVICE_SSE=hivot-sse"  >> $GITHUB_ENV
+        echo "SERVICE_SNOWFLAKE=hivot-snowflake"  >> $GITHUB_ENV
+        echo "SERVICE_WORKERS=hivot-workers"  >> $GITHUB_ENV
+        echo "EXIT_CODE=0" >> $GITHUB_ENV
+        echo "TAG=${{ github.event.inputs.environment }}-v${{ github.event.inputs.version }}
+        
+    - name: Print params
+      run: |
+        echo "----------    Build params -------------"
+        echo "AWS_DEFAULT_REGION:  $AWS_DEFAULT_REGION"
+        echo "ECR_REPOSITORY:      $ECR_REPOSITORY"
+        echo "IMAGE_TAG:           $IMAGE_TAG"
+        echo "SERVICE_CLUSTER:     $SERVICE_CLUSTER"
+        echo "SERVICE_AUTH:        $SERVICE_AUTH"
+        echo "SERVICE_API:         $SERVICE_API"
+        echo "SERVICE_SSE:         $SERVICE_SSE"
+        echo "SERVICE_SNOWFLAKE:   $SERVICE_SNOWFLAKE"
+        echo "SERVICE_WORKERS:     $SERVICE_WORKERS"
+        echo "BRANCH_NAME:         $BRANCH_NAME"
+        echo "TAG:                 $TAG"
+        
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
+
+    - run: |
+        echo "version: ${{ github.event.inputs.version }}"
+        echo "environment: ${{ github.event.inputs.environment }}"

@@ -1400,104 +1400,104 @@ Resources:
           ATHENA_DB_NAME: !Ref AthenaDBName
           BUCKET: !Ref ReportsBucketName
 ################################################################################################
-  ExpandRecommendation:
-    Type: AWS::Serverless::Function
-    Metadata:
-      BuildMethod: makefile
-    Properties:
-      Runtime: python3.7
-      Layers:
-        - !Ref Python3Layer
-      Handler: expand_rec.expand
-      CodeUri: functions/leads_expand_recommendation_string
-      MemorySize: 3008
-      Timeout: 900
-      Role:
-        'Fn::GetAtt':
-          - Role
-          - Arn
-      Environment:
-        Variables:
-          ENV: !Ref Env
-          REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
-          REDSHIFT_DB_USER: !Ref RedshiftDBUser
-          REDSHIFT_DB_NAME: !Ref RedshiftDBName
-          REDSHIFT_DB_PORT: !Ref RedshiftDBPort
-          BUCKET: !Ref ProPairBucketName
-          TOPIC_ROLLBAR: !Ref RollbarTopic   
-      VpcConfig: 
-        SecurityGroupIds: 
-          - sg-0b54841712c67143c
-          - sg-0409e987266b33345
-        SubnetIds: 
-          - subnet-072fb25b65d0098f2
-          - subnet-08702ed2157ee7951
+  # ExpandRecommendation:
+    # Type: AWS::Serverless::Function
+    # Metadata:
+      # BuildMethod: makefile
+    # Properties:
+      # Runtime: python3.7
+      # Layers:
+        # - !Ref Python3Layer
+      # Handler: expand_rec.expand
+      # CodeUri: functions/leads_expand_recommendation_string
+      # MemorySize: 3008
+      # Timeout: 900
+      # Role:
+        # 'Fn::GetAtt':
+          # - Role
+          # - Arn
+      # Environment:
+        # Variables:
+          # ENV: !Ref Env
+          # REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
+          # REDSHIFT_DB_USER: !Ref RedshiftDBUser
+          # REDSHIFT_DB_NAME: !Ref RedshiftDBName
+          # REDSHIFT_DB_PORT: !Ref RedshiftDBPort
+          # BUCKET: !Ref ProPairBucketName
+          # TOPIC_ROLLBAR: !Ref RollbarTopic   
+      # VpcConfig: 
+        # SecurityGroupIds: 
+          # - sg-0b54841712c67143c
+          # - sg-0409e987266b33345
+        # SubnetIds: 
+          # - subnet-072fb25b65d0098f2
+          # - subnet-08702ed2157ee7951
+###############################################################################################
+  # ExpandRecommendationScheduler:
+    # Type: AWS::Serverless::Function
+    # Metadata:
+      # BuildMethod: makefile
+    # Properties:
+      # Runtime: python3.7
+      # Layers:
+        # - !Ref Python3Layer
+      # Handler: scheduler.update
+      # CodeUri: functions/leads_expand_recommendation_string
+      # MemorySize: 256
+      # Timeout: 300
+      # Role:
+        # 'Fn::GetAtt':
+          # - Role
+          # - Arn
+      # Environment:
+        # Variables:
+          # ENV: !Ref Env
+          # REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
+          # REDSHIFT_DB_USER: !Ref RedshiftDBUser
+          # REDSHIFT_DB_NAME: !Ref RedshiftDBName
+          # REDSHIFT_DB_PORT: !Ref RedshiftDBPort
+          # BUCKET: !Ref ProPairBucketName
+          # TOPIC_REC_EXPANSION: !Ref ExpandRecommendationTopic   
+      # VpcConfig: 
+        # SecurityGroupIds: 
+          # - sg-0b54841712c67143c
+          # - sg-0409e987266b33345
+        # SubnetIds: 
+          # - subnet-072fb25b65d0098f2
+          # - subnet-08702ed2157ee7951
 ################################################################################################
-  ExpandRecommendationScheduler:
-    Type: AWS::Serverless::Function
-    Metadata:
-      BuildMethod: makefile
-    Properties:
-      Runtime: python3.7
-      Layers:
-        - !Ref Python3Layer
-      Handler: scheduler.update
-      CodeUri: functions/leads_expand_recommendation_string
-      MemorySize: 256
-      Timeout: 300
-      Role:
-        'Fn::GetAtt':
-          - Role
-          - Arn
-      Environment:
-        Variables:
-          ENV: !Ref Env
-          REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
-          REDSHIFT_DB_USER: !Ref RedshiftDBUser
-          REDSHIFT_DB_NAME: !Ref RedshiftDBName
-          REDSHIFT_DB_PORT: !Ref RedshiftDBPort
-          BUCKET: !Ref ProPairBucketName
-          TOPIC_REC_EXPANSION: !Ref ExpandRecommendationTopic   
-      VpcConfig: 
-        SecurityGroupIds: 
-          - sg-0b54841712c67143c
-          - sg-0409e987266b33345
-        SubnetIds: 
-          - subnet-072fb25b65d0098f2
-          - subnet-08702ed2157ee7951
-################################################################################################
-  MortgageRateUpdater:
-    Type: AWS::Serverless::Function
-    Metadata:
-      BuildMethod: makefile
-    Properties:
-      Runtime: python3.7
-      Layers:
-        - !Ref Python3Layer
-      Handler: updater.update
-      CodeUri: functions/mortgage_rate/
-      MemorySize: 256
-      Timeout: 300
-      Tracing: Active
-      Role:
-        'Fn::GetAtt':
-          - Role
-          - Arn
-      Environment:
-        Variables:
-          ENV: !Ref Env
-          REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
-          REDSHIFT_DB_USER: !Ref RedshiftDBUser
-          REDSHIFT_DB_NAME: !Ref RedshiftDBName
-          REDSHIFT_DB_PORT: !Ref RedshiftDBPort
-          TOPIC_ROLLBAR: !Ref RollbarTopic
-      VpcConfig: 
-        SecurityGroupIds: 
-          - sg-0b54841712c67143c
-          - sg-0409e987266b33345
-        SubnetIds: 
-          - subnet-072fb25b65d0098f2
-          - subnet-08702ed2157ee7951
+  # MortgageRateUpdater:
+    # Type: AWS::Serverless::Function
+    # Metadata:
+      # BuildMethod: makefile
+    # Properties:
+      # Runtime: python3.7
+      # Layers:
+        # - !Ref Python3Layer
+      # Handler: updater.update
+      # CodeUri: functions/mortgage_rate/
+      # MemorySize: 256
+      # Timeout: 300
+      # Tracing: Active
+      # Role:
+        # 'Fn::GetAtt':
+          # - Role
+          # - Arn
+      # Environment:
+        # Variables:
+          # ENV: !Ref Env
+          # REDSHIFT_ENDPOINT: !Ref RedshiftDBEndpoint
+          # REDSHIFT_DB_USER: !Ref RedshiftDBUser
+          # REDSHIFT_DB_NAME: !Ref RedshiftDBName
+          # REDSHIFT_DB_PORT: !Ref RedshiftDBPort
+          # TOPIC_ROLLBAR: !Ref RollbarTopic
+      # VpcConfig: 
+        # SecurityGroupIds: 
+          # - sg-0b54841712c67143c
+          # - sg-0409e987266b33345
+        # SubnetIds: 
+          # - subnet-072fb25b65d0098f2
+          # - subnet-08702ed2157ee7951
 ################################################################################################
   DailySREReport:
     Type: AWS::Serverless::Function
