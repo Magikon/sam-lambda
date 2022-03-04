@@ -47,7 +47,6 @@ jobs:
         echo "SERVICE_SSE:         $SERVICE_SSE"
         echo "SERVICE_SNOWFLAKE:   $SERVICE_SNOWFLAKE"
         echo "SERVICE_WORKERS:     $SERVICE_WORKERS"
-        echo "BRANCH_NAME:         $BRANCH_NAME"
         echo "TAG:                 $TAG"
         
     - name: Checkout
@@ -55,6 +54,21 @@ jobs:
       with:
         fetch-depth: '0'
 
-    - run: |
-        echo "version: ${{ github.event.inputs.version }}"
-        echo "environment: ${{ github.event.inputs.environment }}"
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ env.AWS_DEFAULT_REGION }}
+
+    - name: Login to Amazon ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Pull, build, tag, and push image to Amazon ECR
+      id: build-image
+      env:
+        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+      run: |
+        echo "workers-$TAG"
+        docker tag docker.io/nginx:latest docker.io/mikayel/nginx-brotli:zz-IMAGE_TAG
